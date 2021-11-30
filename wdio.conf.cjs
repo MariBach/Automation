@@ -22,6 +22,9 @@ exports.config = {
     //
     specs: [
         './test/specs/**/*.js'
+        //'./test/specs/negative.e2e.js'
+        //./test/specs/example.e2e.js'
+        //'./test/specs/sociallink.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -54,13 +57,15 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        //maxInstances: 5,
         //
-        browserName: 'firefox',
-    },
-        {
-        maxInstances: 5,   
+       // browserName: 'firefox',
+    //},
+       // {
+        maxInstances: 1,   
         browserName: 'chrome',
+        'goog:chromeOptions': {
+            args:["start-maximized"]}
         //acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
