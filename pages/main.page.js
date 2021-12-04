@@ -1,4 +1,5 @@
-class MainPage {
+import BasePage from '../base/base.page.js';
+class MainPage extends BasePage {
     get accountMenuBtn() {
         return $('#navbarAccount');
     }
@@ -13,7 +14,7 @@ class MainPage {
     }
 
     async open() {
-        await browser.url(`http://localhost:3000/#/`);
+        await super.open(`http://localhost:3000/#/`);
         await this.closePopupBtn.click();
     }
 

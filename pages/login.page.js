@@ -1,4 +1,6 @@
-class LoginPage {    
+import BasePage from "../base/base.page.js";
+
+class LoginPage extends BasePage{    
 
     get emailInput() {
     return $('#email');
@@ -13,7 +15,7 @@ class LoginPage {
         return $('div[class="error ng-star-inserted"]');
     }
     async open() {
-    await browser.url(`http://localhost:3000/#/`);
+    await super.open(`http://localhost:3000/#/`);
 }
     async login(email, pass) {
     await this.emailInput.setValue(email);

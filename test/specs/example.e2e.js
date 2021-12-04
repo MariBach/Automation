@@ -9,14 +9,16 @@ describe('Login testing', () => {
         mainPage.navigateToLogin();
                 
         //Login page
+        // User was registered with data: testpos@test.com, password: test123
         loginPage.login('testpos@test.com', 'test123');
       
         //After login page
         await browser.pause(1000);
-        await expect($('button[aria-label="Show the shopping cart"]')).toBeExisting();
+        await expect(mainPage.accCart).toBeExisting(); //only login users can see the shopping cart element
+        await browser.pause(1000);
 
 
-        //testpos@mail.com
+        //testpos@test.com
         //test123
     });
 });
