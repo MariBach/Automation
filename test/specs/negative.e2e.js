@@ -9,8 +9,9 @@ describe('Login testing', () => {
         mainPage.openAccountMenu();
         mainPage.navigateToLogin();
         
-        //Login pahe
-        loginPage.login('testmail@mail.com', 'test124');
+        //Login page
+        loginPage.login('test@mail.com', 'test124');
+        
 
         //After login page
         await browser.pause(1000);

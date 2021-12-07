@@ -1,9 +1,12 @@
-class SideBar {
+import BasePage from '../base/basePage.js';
+import Button from '../elements/button.js';
+
+class SideBar extends BasePage{
     get sideMenu() {
-        return $('button[aria-label="Open Sidenav"]');
+        return new Button($('button[aria-label="Open Sidenav"]'), "Sidebar menu");
     }
     get aboutUsInfo() {
-        return $('a[routerlink="/about" ]');
+        return new Button($('a[routerlink="/about" ]'), "About us page");
     }
     //get fbIcon() {
     //    let fb =$('a[aria-label="Button for the Facebook page of the shop"]');

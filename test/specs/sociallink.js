@@ -11,11 +11,12 @@ describe('Social link testing', () => {
         //Sidebar
         await sideBar.clickSideBar();
         await sideBar.clickAboutUs();
-        await browser.pause(1000);
+        await browser.pause(3000);
         await socialLink.clickSoclLink();
-        await browser.pause(1000);
+        //Social page
         await socialLink.switchTo();
         await browser.pause(1000);
+        await socialLink.waitForPageAvailable();
         await expect(socialLink.fbElement).toBeExisting();
     })
 })

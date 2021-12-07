@@ -10,7 +10,7 @@ describe('Login testing', () => {
                 
         //Login page
         // User was registered with data: testpos@test.com, password: test123
-        loginPage.login('testpos@test.com', 'test123');
+        loginPage.login('test_reg@test.com', 'test234');
       
         //After login page
         await browser.pause(1000);

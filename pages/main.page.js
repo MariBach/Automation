@@ -1,29 +1,31 @@
-import BasePage from '../base/base.page.js';
+import BasePage from '../base/basePage.js';
+import Button from '../elements/button.js';
+
 class MainPage extends BasePage {
     get accountMenuBtn() {
-        return $('#navbarAccount');
+        return new Button ($('#navbarAccount'), "Account menu");
     }
-    get loginBtn() {
-        return $('#navbarLoginButton');
+    get toLoginBtn() {
+        return new Button ($('#navbarLoginButton'), "Login Page open");
     }
     get closePopupBtn() {
-        return $('button.close-dialog');
+        return new Button ($('button.close-dialog'), "Close popup");
     }
     get accCart() {
-        return $('button[aria-label="Show the shopping cart"]');
+        return  new Button ($('button[aria-label="Show the shopping cart"]'), "User's Cart");
     }
-
+//open home page and close cop-up
     async open() {
         await super.open(`http://localhost:3000/#/`);
         await this.closePopupBtn.click();
     }
-
+//click on user account
     async openAccountMenu() {
         await this.accountMenuBtn.click();
 
     }
     async navigateToLogin() {        
-        await this.loginBtn.click();
+        await this.toLoginBtn.click();
         
     }
 }
