@@ -13,4 +13,7 @@ export default class BaseElement {
     async isDisplayed() {
         return await this.wdioElement.isDisplayed();
     }
+    async waitForDisplayed() {
+        return await this.wdioElement.waitForDisplayed({timeout:5000});
+    }
 }

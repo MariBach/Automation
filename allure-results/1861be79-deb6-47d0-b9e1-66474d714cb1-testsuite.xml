@@ -1,27 +1,27 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639149527821' stop='1639149535612'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639159199611' stop='1639159214312'>
     <name>Social link testing</name>
     <title>Social link testing</title>
     <test-cases>
-        <test-case start='1639149527822' status='passed' stop='1639149535608'>
+        <test-case start='1639159199612' status='passed' stop='1639159214312'>
             <name>Social link testing browser</name>
             <title>Social link testing browser</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-3'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
             </parameters>
             <steps>
-                <step start='1639149531440' status='passed' stop='1639149531440'>
+                <step start='1639159202843' status='passed' stop='1639159202843'>
                     <name>Open 'About Us' section</name>
                     <title>Open 'About Us' section</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1639149532780' status='passed' stop='1639149532780'>
+                <step start='1639159204223' status='passed' stop='1639159204223'>
                     <name>Open social page</name>
                     <title>Open social page</title>
                     <attachments/>

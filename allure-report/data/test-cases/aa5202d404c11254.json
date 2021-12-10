@@ -1,12 +1,12 @@
 {
-  "uid" : "494b67d6f9485feb",
-  "name" : "User registration",
-  "fullName" : "Registration testing.User registration",
-  "historyId" : "94e912554e78a9a7393c3b8bdbe1a4ab",
+  "uid" : "aa5202d404c11254",
+  "name" : "Negative login testing",
+  "fullName" : "Login testing.Negative login testing",
+  "historyId" : "5a1eef1077d3908bb96c15a882371022",
   "time" : {
-    "start" : 1639147775644,
-    "stop" : 1639147789568,
-    "duration" : 13924
+    "start" : 1639159179727,
+    "stop" : 1639159184277,
+    "duration" : 4550
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Open login window",
       "time" : {
-        "start" : 1639147783867,
-        "stop" : 1639147783867,
-        "duration" : 0
+        "start" : 1639159179729,
+        "stop" : 1639159179730,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,14 +29,14 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "Input info test_reg@test.com / test234 ",
+      "name" : "Logging in with test@mail.com / test124 ",
       "time" : {
-        "start" : 1639147787138,
-        "stop" : 1639147787904,
-        "duration" : 766
+        "start" : 1639159179730,
+        "stop" : 1639159183878,
+        "duration" : 4148
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,30 +44,15 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "Registration confirmation",
-      "time" : {
-        "start" : 1639147789463,
-        "stop" : 1639147789463,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 3
+    "stepsCount" : 2,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -78,19 +63,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Registration testing"
+    "value" : "Login testing"
   }, {
     "name" : "testClass",
-    "value" : "Registration testing"
+    "value" : "Login testing"
   }, {
     "name" : "testMethod",
-    "value" : "User registration"
+    "value" : "Negative login testing"
   }, {
     "name" : "package",
-    "value" : "Registration testing"
+    "value" : "Login testing"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -108,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "494b67d6f9485feb.json",
+  "source" : "aa5202d404c11254.json",
   "parameterValues" : [ "chrome-96.0.4664.93" ]
 }

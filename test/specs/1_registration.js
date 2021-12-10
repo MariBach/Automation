@@ -16,7 +16,7 @@ describe('Registration testing', () => {
         //Registration form fill in
         await registerPage.register('test_reg@test.com', 'test234');
         await registerPage.selectQuestion("Mother's maiden name?");
-        await registerPage.inputAnswer('Apalko');
+        await registerPage.inputAnswer('Somename');
         await browser.pause(1000);
         await registerPage.confirmRegister();
     });

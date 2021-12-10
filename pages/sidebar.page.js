@@ -5,13 +5,14 @@ class SideBar extends BasePage{
     get sideMenu() {
         return new Button($('button[aria-label="Open Sidenav"]'), "Sidebar menu");
     }
+    get sideBarScroll()
+    {
+        return $('div[class*="mat-drawer-inner"]');
+    }
     get aboutUsInfo() {
         return new Button($('a[routerlink="/about" ]'), "About us page");
     }
-    //get fbIcon() {
-    //    let fb =$('a[aria-label="Button for the Facebook page of the shop"]');
-    //    return fb ;
-    //}
+
     //get fbElement() {
     //    return $('#entity_sidebar');
     //}
@@ -22,9 +23,7 @@ class SideBar extends BasePage{
         await allure.addStep(`Open 'About Us' section`);
         await this.aboutUsInfo.click();
     }
-   // async clickSoclLink() {
-   //     await this.fbIcon.click();
-   // }
+
    // async switchTo() {
    //     await browser.switchWindow('https://www.facebook.com/owasp.juiceshop');
     //}

@@ -17,15 +17,7 @@ class SocialLink extends BasePage{
         await allure.addStep(`Open social page`);
         await browser.switchWindow('https://twitter.com/owasp_juiceshop');
     }
-    async waitForPageAvailable() {
-        await browser.waitUntil(
-            async () => (await this.fbElement.isDisplayed() === true,
-            {
-                timeout: 5000,
-                timeoutMsg: 'Page is not uploaded'
-            })
-        )
-    }
+    
 }
 export default new SocialLink();
 

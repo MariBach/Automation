@@ -27,8 +27,7 @@ class MainPage extends BasePage {
     }
     async navigateToLogin() {
         await allure.addStep(`Open login window`);
-        await this.toLoginBtn.click();
-        
+        await this.toLoginBtn.click();        
     }
 }
 

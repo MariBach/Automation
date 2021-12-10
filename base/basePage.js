@@ -2,9 +2,9 @@ export default class BasePage {
     async open (url) {
         await browser.url(url);
     }
-    async waitForPageAvailable() {
+    async waitForScreenAvailable(element) {
         await browser.waitUntil(
-            async () => (await BaseElement.isDisplayed() === true,
+            async () => (await element.waitForDisplayed(),
             {
                 timeout: 5000,
                 timeoutMsg: 'Page is not uploaded'

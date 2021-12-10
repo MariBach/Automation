@@ -12,11 +12,10 @@ describe('Login testing', () => {
         //Login page
         loginPage.login('test@mail.com', 'test124');
         
-
         //After login page
         //await browser.pause(1000);
         await expect(loginPage.errMessage).toBeExisting(); //error message is shown in case wrong data input
-        //await browser.pause(1000);
+    
     });
 });
 
