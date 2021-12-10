@@ -1,3 +1,4 @@
+let allureReporter = require('@wdio/allure-reporter').default;
 exports.config = {
     //
     // ====================
@@ -21,11 +22,11 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
-        //'./test/specs/negative.e2e.js'
-        //'./test/specs/positive.e2e.js'
-        //'./test/specs/sociallink.js'
-        //'./test/specs/registration.js'
+        //'./test/specs/**/*.js'
+        //'./test/specs/2_negative.e2e.js'
+        //'./test/specs/3_positive.e2e.js'
+        './test/specs/4_sociallink.js'
+        //'./test/specs/1_registration.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -141,9 +142,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
-
-
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
     
     //
     // Options to be passed to Mocha.
@@ -195,8 +198,9 @@ exports.config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
-    before: function () {
-                console.log('START OF TEST EXECUTION');
+    before: function (capabilities, specs) {
+        global.allure = allureReporter;
+           
     },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -238,8 +242,12 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+        if (!passed) {
+            let screen = await browser.takeScreenshot();
+            await allureReporter.addAttachment("MyScreenshot", Buffer.from(screen, 'base64'), 'img/png')
+        }
+    },
 
 
     /**

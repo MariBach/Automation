@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User registration",
+    "uid" : "494b67d6f9485feb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639147775644,
+      "stop" : 1639147789568,
+      "duration" : 13924
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  }, {
+    "name" : "Negative login testing",
+    "uid" : "25995377ed8f32a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639147795031,
+      "stop" : 1639147799588,
+      "duration" : 4557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  }, {
+    "name" : "Positive login testing",
+    "uid" : "39e2ddd589a9a5ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639147805142,
+      "stop" : 1639147809764,
+      "duration" : 4622
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  }, {
+    "name" : "Social link testing browser",
+    "uid" : "8139448bc7a2f042",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1639147815441,
+      "stop" : 1639147818462,
+      "duration" : 3021
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.93" ]
+  } ]
+}

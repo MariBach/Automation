@@ -1,0 +1,41 @@
+[ {
+  "uid" : "8139448bc7a2f042",
+  "name" : "Social link testing browser",
+  "time" : {
+    "start" : 1639147815441,
+    "stop" : 1639147818462,
+    "duration" : 3021
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "39e2ddd589a9a5ce",
+  "name" : "Positive login testing",
+  "time" : {
+    "start" : 1639147805142,
+    "stop" : 1639147809764,
+    "duration" : 4622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "494b67d6f9485feb",
+  "name" : "User registration",
+  "time" : {
+    "start" : 1639147775644,
+    "stop" : 1639147789568,
+    "duration" : 13924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25995377ed8f32a4",
+  "name" : "Negative login testing",
+  "time" : {
+    "start" : 1639147795031,
+    "stop" : 1639147799588,
+    "duration" : 4557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

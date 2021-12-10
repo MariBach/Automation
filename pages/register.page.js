@@ -28,10 +28,11 @@ class RegisterPage {
     }
     //open register form
     async register(email, password) {
-        
+        await allure.startStep(`Input info ${email} / ${password} `);
         await this.emailReg.setValue(email);
         await this.passwordReg.setValue(password);
         await this.passwordRepeat.setValue(password);
+        await allure.endStep('passed');
 
     }
     //select question from dropdown
@@ -44,6 +45,7 @@ class RegisterPage {
     }
     //click to complete registration
     async confirmRegister() {
+        await allure.addStep(`Registration confirmation`);
         await this.registerConfirmBtn.click();
     }
 }

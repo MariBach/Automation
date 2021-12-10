@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Registration testing",
+    "children" : [ {
+      "name" : "User registration",
+      "uid" : "494b67d6f9485feb",
+      "parentUid" : "3fac0cd0972af687c379e84d5691f732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639147775644,
+        "stop" : 1639147789568,
+        "duration" : 13924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "3fac0cd0972af687c379e84d5691f732"
+  }, {
+    "name" : "Login testing",
+    "children" : [ {
+      "name" : "Negative login testing",
+      "uid" : "25995377ed8f32a4",
+      "parentUid" : "886ddd971c27159e75c9ed681c9aa93e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639147795031,
+        "stop" : 1639147799588,
+        "duration" : 4557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "Positive login testing",
+      "uid" : "39e2ddd589a9a5ce",
+      "parentUid" : "886ddd971c27159e75c9ed681c9aa93e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639147805142,
+        "stop" : 1639147809764,
+        "duration" : 4622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "886ddd971c27159e75c9ed681c9aa93e"
+  }, {
+    "name" : "Social link testing",
+    "children" : [ {
+      "name" : "Social link testing browser",
+      "uid" : "8139448bc7a2f042",
+      "parentUid" : "b0b9624b6270071578fead6182ec527f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1639147815441,
+        "stop" : 1639147818462,
+        "duration" : 3021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "b0b9624b6270071578fead6182ec527f"
+  } ]
+}

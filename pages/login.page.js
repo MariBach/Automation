@@ -29,9 +29,11 @@ class LoginPage {
     }
     //input login info and click to login  
     async login(email, pass) {
+        await allure.startStep(`Logging in with ${email} / ${pass} `);
         await this.emailInput.setValue(email);
         await this.pswdInput.setValue(pass);
         await this.loginBtn.click();
+        await allure.endStep('passed');
     }
 //check error message (wrong input data) in login window      
     async checkLogin() {
@@ -39,6 +41,7 @@ class LoginPage {
     }
 // move to registration form
     async moveToRegister() {
+        
         await this.registerBtn.click();
     }    
 }

@@ -14,6 +14,7 @@ class SocialLink extends BasePage{
         await this.fbIcon.click();
     }
     async switchTo() {
+        await allure.addStep(`Open social page`);
         await browser.switchWindow('https://twitter.com/owasp_juiceshop');
     }
     async waitForPageAvailable() {

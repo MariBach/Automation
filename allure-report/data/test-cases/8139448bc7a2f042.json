@@ -1,0 +1,97 @@
+{
+  "uid" : "8139448bc7a2f042",
+  "name" : "Social link testing browser",
+  "fullName" : "Social link testing.Social link testing browser",
+  "historyId" : "e2e64c57cc961d7f9477ea054741ef08",
+  "time" : {
+    "start" : 1639147815441,
+    "stop" : 1639147818462,
+    "duration" : 3021
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=96.0.4664.93)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00736903+2517251]\n                \tOrdinal0 [0x006CF8E1+2095329]\n                \tOrdinal0 [0x005D2710+1058576]\n                \tOrdinal0 [0x005FE324+1237796]\n                \tOrdinal0 [0x005F4037+1196087]\n                \tOrdinal0 [0x006164D3+1336531]\n                \tOrdinal0 [0x005F3A36+1194550]\n                \tOrdinal0 [0x006165BA+1336762]\n                \tOrdinal0 [0x00625BBF+1399743]\n                \tOrdinal0 [0x0061639B+1336219]\n                \tOrdinal0 [0x005F27A7+1189799]\n                \tOrdinal0 [0x005F3609+1193481]\n                \tGetHandleVerifier [0x008C5904+1577972]\n                \tGetHandleVerifier [0x00970B97+2279047]\n                \tGetHandleVerifier [0x007C6D09+534521]\n                \tGetHandleVerifier [0x007C5DB9+530601]\n                \tOrdinal0 [0x006D4FF9+2117625]\n                \tOrdinal0 [0x006D98A8+2136232]\n                \tOrdinal0 [0x006D99E2+2136546]\n                \tOrdinal0 [0x006E3541+2176321]\n                \tBaseThreadInitThunk [0x7524FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77287A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77287A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=96.0.4664.93)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00736903+2517251]\n                \tOrdinal0 [0x006CF8E1+2095329]\n                \tOrdinal0 [0x005D2710+1058576]\n                \tOrdinal0 [0x005FE324+1237796]\n                \tOrdinal0 [0x005F4037+1196087]\n                \tOrdinal0 [0x006164D3+1336531]\n                \tOrdinal0 [0x005F3A36+1194550]\n                \tOrdinal0 [0x006165BA+1336762]\n                \tOrdinal0 [0x00625BBF+1399743]\n                \tOrdinal0 [0x0061639B+1336219]\n                \tOrdinal0 [0x005F27A7+1189799]\n                \tOrdinal0 [0x005F3609+1193481]\n                \tGetHandleVerifier [0x008C5904+1577972]\n                \tGetHandleVerifier [0x00970B97+2279047]\n                \tGetHandleVerifier [0x007C6D09+534521]\n                \tGetHandleVerifier [0x007C5DB9+530601]\n                \tOrdinal0 [0x006D4FF9+2117625]\n                \tOrdinal0 [0x006D98A8+2136232]\n                \tOrdinal0 [0x006D99E2+2136546]\n                \tOrdinal0 [0x006E3541+2176321]\n                \tBaseThreadInitThunk [0x7524FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77287A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77287A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Open 'About Us' section",
+      "time" : {
+        "start" : 1639147817712,
+        "stop" : 1639147817712,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "33515c64d46a135",
+      "name" : "MyScreenshot",
+      "source" : "33515c64d46a135.null",
+      "type" : "img/png",
+      "size" : 241036
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Social link testing browser"
+  }, {
+    "name" : "package",
+    "value" : "Social link testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8139448bc7a2f042.json",
+  "parameterValues" : [ "chrome-96.0.4664.93" ]
+}

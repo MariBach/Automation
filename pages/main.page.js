@@ -1,3 +1,4 @@
+import AllureReporter from '@wdio/allure-reporter';
 import BasePage from '../base/basePage.js';
 import Button from '../elements/button.js';
 
@@ -16,7 +17,7 @@ class MainPage extends BasePage {
     }
 //open home page and close cop-up
     async open() {
-        await super.open(`http://localhost:3000/#/`);
+         await super.open(`http://localhost:3000/#/`);
         await this.closePopupBtn.click();
     }
 //click on user account
@@ -24,7 +25,8 @@ class MainPage extends BasePage {
         await this.accountMenuBtn.click();
 
     }
-    async navigateToLogin() {        
+    async navigateToLogin() {
+        await allure.addStep(`Open login window`);
         await this.toLoginBtn.click();
         
     }

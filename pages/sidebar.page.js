@@ -19,6 +19,7 @@ class SideBar extends BasePage{
         await this.sideMenu.click();
     }
     async clickAboutUs() {
+        await allure.addStep(`Open 'About Us' section`);
         await this.aboutUsInfo.click();
     }
    // async clickSoclLink() {
