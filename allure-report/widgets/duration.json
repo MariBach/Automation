@@ -1,40 +1,90 @@
 [ {
-  "uid" : "b8ff6e9895ae2129",
-  "name" : "Positive login testing",
+  "uid" : "95ad60b34103fae8",
+  "name" : "Checking post for user creation",
   "time" : {
-    "start" : 1639159190038,
-    "stop" : 1639159194156,
-    "duration" : 4118
+    "start" : 1639320681822,
+    "stop" : 1639320682450,
+    "duration" : 628
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e0c63a7aab14f5",
+  "name" : "Checking negative loggin",
+  "time" : {
+    "start" : 1639320661817,
+    "stop" : 1639320661865,
+    "duration" : 48
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aa5202d404c11254",
-  "name" : "Negative login testing",
+  "uid" : "d9814d7c27b5ffd5",
+  "name" : "Checking social media link",
   "time" : {
-    "start" : 1639159179727,
-    "stop" : 1639159184277,
-    "duration" : 4550
+    "start" : 1639320691947,
+    "stop" : 1639320692804,
+    "duration" : 857
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "788d55ba865b8727",
-  "name" : "Social link testing browser",
+  "uid" : "118ee653523a9683",
+  "name" : "Checking positive loggin",
   "time" : {
-    "start" : 1639159199612,
-    "stop" : 1639159214312,
-    "duration" : 14700
+    "start" : 1639320671881,
+    "stop" : 1639320671938,
+    "duration" : 57
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d13b6b445d74c218",
+  "uid" : "c9fc9f9169050304",
   "name" : "User registration",
   "time" : {
-    "start" : 1639159160230,
-    "stop" : 1639159170574,
-    "duration" : 10344
+    "start" : 1639320572699,
+    "stop" : 1639320584376,
+    "duration" : 11677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9340e5f096ea1fd7",
+  "name" : "Negative login testing",
+  "time" : {
+    "start" : 1639320591779,
+    "stop" : 1639320596872,
+    "duration" : 5093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f2e1a0247bda63",
+  "name" : "Positive login testing",
+  "time" : {
+    "start" : 1639320606639,
+    "stop" : 1639320611192,
+    "duration" : 4553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e051e7a63af5d9b",
+  "name" : "Social link testing browser",
+  "time" : {
+    "start" : 1639320616740,
+    "stop" : 1639320641930,
+    "duration" : 25190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2eda8516d4e9240",
+  "name" : "Checkig get feedback",
+  "time" : {
+    "start" : 1639320651886,
+    "stop" : 1639320651945,
+    "duration" : 59
   },
   "status" : "passed",
   "severity" : "normal"

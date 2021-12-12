@@ -5,13 +5,13 @@
     "name" : "Registration testing",
     "children" : [ {
       "name" : "User registration",
-      "uid" : "d13b6b445d74c218",
+      "uid" : "c9fc9f9169050304",
       "parentUid" : "3fac0cd0972af687c379e84d5691f732",
       "status" : "passed",
       "time" : {
-        "start" : 1639159160230,
-        "stop" : 1639159170574,
-        "duration" : 10344
+        "start" : 1639320572699,
+        "stop" : 1639320584376,
+        "duration" : 11677
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,26 +22,26 @@
     "name" : "Login testing",
     "children" : [ {
       "name" : "Negative login testing",
-      "uid" : "aa5202d404c11254",
+      "uid" : "9340e5f096ea1fd7",
       "parentUid" : "886ddd971c27159e75c9ed681c9aa93e",
       "status" : "passed",
       "time" : {
-        "start" : 1639159179727,
-        "stop" : 1639159184277,
-        "duration" : 4550
+        "start" : 1639320591779,
+        "stop" : 1639320596872,
+        "duration" : 5093
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.93" ]
     }, {
       "name" : "Positive login testing",
-      "uid" : "b8ff6e9895ae2129",
+      "uid" : "d0f2e1a0247bda63",
       "parentUid" : "886ddd971c27159e75c9ed681c9aa93e",
       "status" : "passed",
       "time" : {
-        "start" : 1639159190038,
-        "stop" : 1639159194156,
-        "duration" : 4118
+        "start" : 1639320606639,
+        "stop" : 1639320611192,
+        "duration" : 4553
       },
       "flaky" : false,
       "newFailed" : false,
@@ -52,18 +52,87 @@
     "name" : "Social link testing",
     "children" : [ {
       "name" : "Social link testing browser",
-      "uid" : "788d55ba865b8727",
+      "uid" : "1e051e7a63af5d9b",
       "parentUid" : "b0b9624b6270071578fead6182ec527f",
       "status" : "passed",
       "time" : {
-        "start" : 1639159199612,
-        "stop" : 1639159214312,
-        "duration" : 14700
+        "start" : 1639320616740,
+        "stop" : 1639320641930,
+        "duration" : 25190
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.93" ]
     } ],
     "uid" : "b0b9624b6270071578fead6182ec527f"
+  }, {
+    "name" : "API testing",
+    "children" : [ {
+      "name" : "Checkig get feedback",
+      "uid" : "c2eda8516d4e9240",
+      "parentUid" : "3ff7861eb6401c0da10a615f10df9ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639320651886,
+        "stop" : 1639320651945,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "Checking negative loggin",
+      "uid" : "c0e0c63a7aab14f5",
+      "parentUid" : "3ff7861eb6401c0da10a615f10df9ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639320661817,
+        "stop" : 1639320661865,
+        "duration" : 48
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "Checking positive loggin",
+      "uid" : "118ee653523a9683",
+      "parentUid" : "3ff7861eb6401c0da10a615f10df9ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639320671881,
+        "stop" : 1639320671938,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "Checking post for user creation",
+      "uid" : "95ad60b34103fae8",
+      "parentUid" : "3ff7861eb6401c0da10a615f10df9ff8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1639320681822,
+        "stop" : 1639320682450,
+        "duration" : 628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    }, {
+      "name" : "Checking social media link",
+      "uid" : "d9814d7c27b5ffd5",
+      "parentUid" : "3ff7861eb6401c0da10a615f10df9ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639320691947,
+        "stop" : 1639320692804,
+        "duration" : 857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.93" ]
+    } ],
+    "uid" : "3ff7861eb6401c0da10a615f10df9ff8"
   } ]
 }

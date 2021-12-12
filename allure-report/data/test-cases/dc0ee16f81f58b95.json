@@ -1,12 +1,12 @@
 {
-  "uid" : "b8ff6e9895ae2129",
-  "name" : "Positive login testing",
-  "fullName" : "Login testing.Positive login testing",
-  "historyId" : "c00144f4ed5498e4af40d519de32d83c",
+  "uid" : "dc0ee16f81f58b95",
+  "name" : "User registration",
+  "fullName" : "Registration testing.User registration",
+  "historyId" : "94e912554e78a9a7393c3b8bdbe1a4ab",
   "time" : {
-    "start" : 1639159190038,
-    "stop" : 1639159194156,
-    "duration" : 4118
+    "start" : 1639159160230,
+    "stop" : 1639159170574,
+    "duration" : 10344
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,8 +19,38 @@
     "steps" : [ {
       "name" : "Open login window",
       "time" : {
-        "start" : 1639159190042,
-        "stop" : 1639159190042,
+        "start" : 1639159163001,
+        "stop" : 1639159163002,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Input info test_reg@test.com / test234 ",
+      "time" : {
+        "start" : 1639159168166,
+        "stop" : 1639159168929,
+        "duration" : 763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Registration confirmation",
+      "time" : {
+        "start" : 1639159170470,
+        "stop" : 1639159170470,
         "duration" : 0
       },
       "status" : "passed",
@@ -29,30 +59,15 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Logging in with test_reg@test.com / test234 ",
-      "time" : {
-        "start" : 1639159190042,
-        "stop" : 1639159193999,
-        "duration" : 3957
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -63,19 +78,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "Login testing"
+    "value" : "Registration testing"
   }, {
     "name" : "testClass",
-    "value" : "Login testing"
+    "value" : "Registration testing"
   }, {
     "name" : "testMethod",
-    "value" : "Positive login testing"
+    "value" : "User registration"
   }, {
     "name" : "package",
-    "value" : "Login testing"
+    "value" : "Registration testing"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -85,14 +100,12 @@
     "value" : "chrome-96.0.4664.93"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b8ff6e9895ae2129.json",
+  "source" : "dc0ee16f81f58b95.json",
   "parameterValues" : [ "chrome-96.0.4664.93" ]
 }

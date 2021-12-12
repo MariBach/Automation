@@ -1,12 +1,12 @@
 {
-  "uid" : "aa5202d404c11254",
-  "name" : "Negative login testing",
-  "fullName" : "Login testing.Negative login testing",
-  "historyId" : "5a1eef1077d3908bb96c15a882371022",
+  "uid" : "d0f2e1a0247bda63",
+  "name" : "Positive login testing",
+  "fullName" : "Login testing.Positive login testing",
+  "historyId" : "c00144f4ed5498e4af40d519de32d83c",
   "time" : {
-    "start" : 1639159179727,
-    "stop" : 1639159184277,
-    "duration" : 4550
+    "start" : 1639320606639,
+    "stop" : 1639320611192,
+    "duration" : 4553
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Open login window",
       "time" : {
-        "start" : 1639159179729,
-        "stop" : 1639159179730,
-        "duration" : 1
+        "start" : 1639320606643,
+        "stop" : 1639320606643,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,14 +29,14 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Logging in with test@mail.com / test124 ",
+      "name" : "Logging in with test_reg@test.com / test234 ",
       "time" : {
-        "start" : 1639159179730,
-        "stop" : 1639159183878,
-        "duration" : 4148
+        "start" : 1639320606643,
+        "stop" : 1639320610756,
+        "duration" : 4113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,15 +44,15 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 2,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 2
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -63,7 +63,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-2"
   }, {
     "name" : "suite",
     "value" : "Login testing"
@@ -72,7 +72,7 @@
     "value" : "Login testing"
   }, {
     "name" : "testMethod",
-    "value" : "Negative login testing"
+    "value" : "Positive login testing"
   }, {
     "name" : "package",
     "value" : "Login testing"
@@ -89,10 +89,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "e111bfbcb04c48ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639159190038,
+        "stop" : 1639159194156,
+        "duration" : 4118
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "aa5202d404c11254.json",
+  "source" : "d0f2e1a0247bda63.json",
   "parameterValues" : [ "chrome-96.0.4664.93" ]
 }

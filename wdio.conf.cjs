@@ -27,6 +27,7 @@ exports.config = {
         //'./test/specs/3_positive.e2e.js'
         //'./test/specs/4_sociallink.js'
         //'./test/specs/1_registration.js'
+        
     ],
     // Patterns to exclude.
     exclude: [
