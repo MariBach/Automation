@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Bad Request",
-      "children" : [ {
-        "name" : "Checking post for user creation",
-        "uid" : "95ad60b34103fae8",
-        "parentUid" : "e2b0fae50cd647a86854a33546681ceb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1639320681822,
-          "stop" : 1639320682450,
-          "duration" : 628
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-96.0.4664.93" ]
-      } ],
-      "uid" : "e2b0fae50cd647a86854a33546681ceb"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

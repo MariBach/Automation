@@ -1,18 +1,20 @@
 import Dropdown from "../elements/dropdown.js";
+import Input from "../elements/input.js";
+import Button from "../elements/button.js";
 
 class RegisterPage {
 
      //input email in registration form
     get emailReg() {
-        return $('#emailControl');
+        return new Input($('#emailControl'));
     }
     //input password in registration form
     get passwordReg() {
-        return $('#passwordControl');
+        return new Input($('#passwordControl'));
     }
     //confirm password in registration form
     get passwordRepeat() {
-        return $('#repeatPasswordControl');
+        return new Input($('#repeatPasswordControl'));
     }
     //dropdown list
     get questionDrop() {
@@ -21,10 +23,10 @@ class RegisterPage {
     }
     //inout security answer
     get securityAnswer() {
-        return $('#securityAnswerControl');
+        return new Input($('#securityAnswerControl'));
     }
     get registerConfirmBtn() {
-        return $('#registerButton');
+        return new Button ($('#registerButton'));
     }
     //open register form
     async register(email, password) {

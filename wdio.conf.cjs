@@ -22,11 +22,11 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        //'./test/specs/**/*.js'
         //'./test/specs/2_negative.e2e.js'
         //'./test/specs/3_positive.e2e.js'
         //'./test/specs/4_sociallink.js'
-        //'./test/specs/1_registration.js'
+        './test/specs/1_registration.js'
         
     ],
     // Patterns to exclude.

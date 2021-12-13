@@ -1,9 +1,9 @@
-//import BasePage from "../base/base.page.js";
+import BasePage from "../base/basePage.js";
 import BaseElement from "../base/baseElement.js";
 import Button from "../elements/button.js";
 import Input from "../elements/input.js";
 
-class LoginPage {    
+class LoginPage extends BasePage{    
 //user credentials
     get emailInput() {
     return new Input($('#email'), "Input email");
@@ -40,8 +40,7 @@ class LoginPage {
         await this.errMessage.isExisting();
     }
 // move to registration form
-    async moveToRegister() {
-        
+    async moveToRegister() {        
         await this.registerBtn.click();
     }    
 }

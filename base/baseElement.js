@@ -16,4 +16,8 @@ export default class BaseElement {
     async waitForDisplayed() {
         return await this.wdioElement.waitForDisplayed({timeout:5000});
     }
+    async waitForClickable() {
+        return await this.wdioElement.waitForClickable({ timeout: 3000 });
+
+    }
 }

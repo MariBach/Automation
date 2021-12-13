@@ -3,117 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "User registration",
-    "uid" : "c9fc9f9169050304",
+    "uid" : "51bfdde1b7a8c972",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1639320572699,
-      "stop" : 1639320584376,
-      "duration" : 11677
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Negative login testing",
-    "uid" : "9340e5f096ea1fd7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320591779,
-      "stop" : 1639320596872,
-      "duration" : 5093
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Positive login testing",
-    "uid" : "d0f2e1a0247bda63",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320606639,
-      "stop" : 1639320611192,
-      "duration" : 4553
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Social link testing browser",
-    "uid" : "1e051e7a63af5d9b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320616740,
-      "stop" : 1639320641930,
-      "duration" : 25190
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Checkig get feedback",
-    "uid" : "c2eda8516d4e9240",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320651886,
-      "stop" : 1639320651945,
-      "duration" : 59
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Checking negative loggin",
-    "uid" : "c0e0c63a7aab14f5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320661817,
-      "stop" : 1639320661865,
-      "duration" : 48
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Checking positive loggin",
-    "uid" : "118ee653523a9683",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320671881,
-      "stop" : 1639320671938,
-      "duration" : 57
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Checking post for user creation",
-    "uid" : "95ad60b34103fae8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1639320681822,
-      "stop" : 1639320682450,
-      "duration" : 628
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-96.0.4664.93" ]
-  }, {
-    "name" : "Checking social media link",
-    "uid" : "d9814d7c27b5ffd5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1639320691947,
-      "stop" : 1639320692804,
-      "duration" : 857
+      "start" : 1639398441206,
+      "stop" : 1639398450562,
+      "duration" : 9356
     },
     "flaky" : false,
     "newFailed" : false,

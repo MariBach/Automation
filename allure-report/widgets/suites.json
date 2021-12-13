@@ -1,41 +1,8 @@
 {
-  "total" : 4,
+  "total" : 1,
   "items" : [ {
-    "uid" : "6a5a2bc4c39354cd0a99938f20154cc8",
-    "name" : "API testing",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
-    "uid" : "f4b07889bbc65f7b0b91277384e5029a",
-    "name" : "Login testing",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "9e4ffe71eafaea8821bec9315e842709",
     "name" : "Registration testing",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e024648a9c085a31c3655499757dd40d",
-    "name" : "Social link testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
