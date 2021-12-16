@@ -26,7 +26,15 @@ exports.config = {
         //'./test/specs/2_negative.e2e.js'
         //'./test/specs/3_positive.e2e.js'
         //'./test/specs/4_sociallink.js'
-        './test/specs/1_registration.js'
+        //'./test/specs/1_registration.js'
+        //'./test/specs/registration_negative.js'
+        //'./test/specs/gotohomepage.js'
+        //'./test/specs/basket_check.js'
+        //'./test/specs/order_fulfill.js'
+        //'./test/specs/user_profile.js'
+        //'./test/specs/last_item.js'
+        './test/specs/last_item_negative.js'
+
         
     ],
     // Patterns to exclude.

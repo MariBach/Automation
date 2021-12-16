@@ -14,9 +14,10 @@ describe('Registration testing', () => {
         await loginPage.moveToRegister();
 
         //Registration form fill in
-        await registerPage.register('test_reg@test.com', 'test234');
+        await registerPage.register('test@test.com', 'test123');
         await registerPage.selectQuestion("Mother's maiden name?");
         await registerPage.inputAnswer('Somename');
         await registerPage.confirmRegister();
+    
     });
 })

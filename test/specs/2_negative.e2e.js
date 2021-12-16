@@ -5,12 +5,12 @@ describe('Login testing', () => {
     it('Negative login testing', async () => {
 
         //Main page
-        mainPage.open();
-        mainPage.openAccountMenu();
-        mainPage.navigateToLogin();
+        await mainPage.open();
+        await mainPage.openAccountMenu();
+        await mainPage.navigateToLogin();
         
         //Login page
-        loginPage.login('test@mail.com', 'test124');
+        await loginPage.login('test@mail.com', 'test124');
         
         //After login page
         //await browser.pause(1000);

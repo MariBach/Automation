@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "User registration",
-    "uid" : "51bfdde1b7a8c972",
+    "uid" : "9b7f8223a3c77b81",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {

@@ -1,5 +1,5 @@
 {
-  "uid" : "51bfdde1b7a8c972",
+  "uid" : "9b7f8223a3c77b81",
   "name" : "User registration",
   "fullName" : "Registration testing.User registration",
   "historyId" : "94e912554e78a9a7393c3b8bdbe1a4ab",
@@ -27,10 +27,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Input info test_reg@test.com / test234 ",
       "time" : {
@@ -42,10 +42,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Registration confirmation",
       "time" : {
@@ -57,17 +57,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 3,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "51bfdde1b7a8c972.json",
+  "source" : "9b7f8223a3c77b81.json",
   "parameterValues" : [ "chrome-96.0.4664.93" ]
 }

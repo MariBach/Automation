@@ -4,14 +4,14 @@ import loginPage from "../../pages/login.page.js"
 describe('Login testing', () => {
     it('Positive login testing', async () => {
         //Main page
-        mainPage.open();
-        mainPage.openAccountMenu();
-        mainPage.navigateToLogin();
+        await mainPage.open();
+        await mainPage.openAccountMenu();
+        await mainPage.navigateToLogin();
                 
         //Login page
-        // User was registered with data: 'test_reg@test.com', 'test234'
-        loginPage.login('test_reg@test.com', 'test234');
-              
+        // User was registered with data: 'test@test.com', 'test123'
+        await loginPage.login('test2@test.com', 'test123');
+        await browser.pause(5000);      
         //After login page
        // await browser.pause(1000);
         await expect(mainPage.accCart).toBeExisting(); //only login users can see the shopping cart element

@@ -5,7 +5,7 @@
     "name" : "Registration testing",
     "children" : [ {
       "name" : "User registration",
-      "uid" : "51bfdde1b7a8c972",
+      "uid" : "9b7f8223a3c77b81",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {

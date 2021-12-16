@@ -1,8 +1,9 @@
 import Dropdown from "../elements/dropdown.js";
 import Input from "../elements/input.js";
 import Button from "../elements/button.js";
+import BasePage from "../base/basePage.js";
 
-class RegisterPage {
+class RegisterPage extends BasePage{
 
      //input email in registration form
     get emailReg() {
@@ -28,6 +29,16 @@ class RegisterPage {
     get registerConfirmBtn() {
         return new Button ($('#registerButton'));
     }
+    //errors elements
+    get emailNotValid() {
+        return $('//mat-error[contains(text(), "Email address is not valid.")]');
+    }
+    get passToShort() {
+        return $('//mat-error[contains(text(), "Password must be 5-40 characters long.")]');
+    }
+    get emailNotUnique() {
+        return $('//div[@class="error"]');
+    }    
     //open register form
     async register(email, password) {
         await allure.startStep(`Input info ${email} / ${password} `);
@@ -50,5 +61,18 @@ class RegisterPage {
         await allure.addStep(`Registration confirmation`);
         await this.registerConfirmBtn.click();
     }
+    //check input user's data validation
+    async checkUser() {
+        await expect(this.emailNotValid).toBeExisting();
+    }
+    //check unique user's name
+    async checkUserUnique() {
+        await expect(this.emailNotUnique).toBeExisting();
+    }
+    //check password lengh
+    async checkPassLength() {
+        await expect(this.passToShort).toBeExisting();
+    }
+
 }
 export default new RegisterPage ();

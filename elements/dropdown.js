@@ -14,5 +14,15 @@ export default class Dropdown extends BaseElement{
         //$x(`//*[@class="mat-option-text"][contains(text(), "Mother's maiden name?")]`)
         await new Button($(`//*[@class="mat-option-text"][contains(text(), "${option}")]`), `Question "${option}"`).click();
 
-    } 
+    }
+    async selectMonth(option) {
+        await this.open();
+        await new Button($(`//*[@class="ng-star-inserted"][contains(text(),"${option}")]`), `Month ${option}`).click();
+        //await new Button($(`//option[text="${option}"]`), `month"${option}"`);
+    }
+    async selectYear(option) {
+        await this.open();
+        await new Button($(`//*[@class="ng-star-inserted"][contains(text(),"${option}")]`), `Year ${option}`).click();
+        //await new Button($(`//option[text="${option}"]`), `month"${option}"`);
+    }
 }
