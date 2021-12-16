@@ -31,9 +31,9 @@ exports.config = {
         //'./test/specs/gotohomepage.js'
         //'./test/specs/basket_check.js'
         //'./test/specs/order_fulfill.js'
-        //'./test/specs/user_profile.js'
+        './test/specs/user_profile.js'
         //'./test/specs/last_item.js'
-        './test/specs/last_item_negative.js'
+        //'./test/specs/last_item_negative.js'
 
         
     ],
