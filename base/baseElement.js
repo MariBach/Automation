@@ -3,6 +3,7 @@ export default class BaseElement {
         this.wdioElement = wdioElement;
         this.elementName = name;
     }
+    
     async click() {
         console.log(`Click on the element "${this.elementName}"`);
         await this.wdioElement.click();

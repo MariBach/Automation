@@ -12,7 +12,9 @@ class SideBar extends BasePage{
     get aboutUsInfo() {
         return new Button($('a[routerlink="/about" ]'), "About us page");
     }
-
+    get feedbackPage() {
+        return new Button($('(//div[@class="mat-list-item-content"])[5]'));
+    }
     //get fbElement() {
     //    return $('#entity_sidebar');
     //}
@@ -22,6 +24,9 @@ class SideBar extends BasePage{
     async clickAboutUs() {
         await allure.addStep(`Open 'About Us' section`);
         await this.aboutUsInfo.click();
+    }
+    async openFeedbackPage() {
+        await this.feedbackPage.click();
     }
 
    // async switchTo() {
