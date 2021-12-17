@@ -28,6 +28,7 @@ class OrderPage extends BasePage {
         return new BaseElement($('h1.confirmation'));
     }
     async checkOut() {
+        await this.checkOutBtn.waitForClickable();
         await this.checkOutBtn.click();
     }
     async NewAddressOpen() {

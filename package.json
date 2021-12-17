@@ -21,7 +21,7 @@
         "wdio-chromedriver-service": "^7.2.2",
         "webdriverio": "^7.16.10"
     },
-    "scripts": {
+    "scripts": {        
         "wdio": "wdio run wdio.conf.cjs",
         "test": "mocha test/**/*.js",
         "allure": "./node_modules/.bin/allure generate allure-results -o allure-report --clean && allure open"

@@ -1,0 +1,106 @@
+{
+  "uid" : "84a5d805e301bef1",
+  "name" : "Add/remove to basket",
+  "fullName" : "Basket testing.Add/remove to basket",
+  "historyId" : "49f17c4534af91d3fc31df04d16872f",
+  "time" : {
+    "start" : 1639741302031,
+    "stop" : 1639741308881,
+    "duration" : 6850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1639741304500,
+        "stop" : 1639741304500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1639741305070,
+        "stop" : 1639741305645,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "Basket testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Basket testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add/remove to basket"
+  }, {
+    "name" : "package",
+    "value" : "Basket testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfae55fdc06e6161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639741166816,
+        "stop" : 1639741173157,
+        "duration" : 6341
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84a5d805e301bef1.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

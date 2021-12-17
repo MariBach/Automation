@@ -1,39 +1,6 @@
 {
   "total" : 9,
   "items" : [ {
-    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841",
-    "name" : "Basket testing",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "ffc96c741b323ceb328d37b4f543edb2",
-    "name" : "Updating info at HomePage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "98c88021625ef5509028d199138a0653",
-    "name" : "Purchase flow tescting",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "6a5a2bc4c39354cd0a99938f20154cc8",
     "name" : "API testing",
     "statistic" : {
@@ -67,8 +34,30 @@
       "total" : 2
     }
   }, {
+    "uid" : "ffc96c741b323ceb328d37b4f543edb2",
+    "name" : "Updating info at HomePage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "0a7d0284fc9fa408bfe89d4cd9bef19d",
     "name" : "User profile testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "df431b8b147a5a568d4b706402edbb51",
+    "name" : "Purchase flow testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -91,6 +80,17 @@
   }, {
     "uid" : "e024648a9c085a31c3655499757dd40d",
     "name" : "Social link testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+    "name" : "Basket testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,0 +1,98 @@
+{
+  "uid" : "3288986c18ba9dc6",
+  "name" : "Social link testing browser",
+  "fullName" : "Social link testing.Social link testing browser",
+  "historyId" : "794b14b403af599cf0f998dd9497df3",
+  "time" : {
+    "start" : 1639741256742,
+    "stop" : 1639741264087,
+    "duration" : 7345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'About Us' section",
+      "time" : {
+        "start" : 1639741259996,
+        "stop" : 1639741259996,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Open social page",
+      "time" : {
+        "start" : 1639741261431,
+        "stop" : 1639741261431,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Social link testing browser"
+  }, {
+    "name" : "package",
+    "value" : "Social link testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3288986c18ba9dc6.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

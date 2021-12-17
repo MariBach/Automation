@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639741057854' stop='1639741068538'>
+    <name>Registration testing</name>
+    <title>Registration testing</title>
+    <test-cases>
+        <test-case start='1639741057855' status='passed' stop='1639741068536'>
+            <name>Invalid email input</name>
+            <title>Invalid email input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639741061615' status='passed' stop='1639741061616'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639741066118' status='passed' stop='1639741066901'>
+                    <name>Input info test_test.com / test234 </name>
+                    <title>Input info test_test.com / test234 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
