@@ -1,10 +1,180 @@
 [ {
-  "uid" : "9b7f8223a3c77b81",
+  "uid" : "65846a05df7a4c82",
+  "name" : "Checkig get feedback",
+  "time" : {
+    "start" : 1639729300242,
+    "stop" : 1639729300296,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b5edd4e58192dc3",
+  "name" : "Buy the last item",
+  "time" : {
+    "start" : 1639729205055,
+    "stop" : 1639729220499,
+    "duration" : 15444
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57027477195facd4",
+  "name" : "Checking negative loggin",
+  "time" : {
+    "start" : 1639729310400,
+    "stop" : 1639729310446,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed980f02c105e9b8",
+  "name" : "Feedback 3* testing",
+  "time" : {
+    "start" : 1639729265373,
+    "stop" : 1639729275995,
+    "duration" : 10622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45c82f5a6e9bcca8",
+  "name" : "Social link testing browser",
+  "time" : {
+    "start" : 1639729285442,
+    "stop" : 1639729293499,
+    "duration" : 8057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1021e963de89e37",
   "name" : "User registration",
   "time" : {
-    "start" : 1639398441206,
-    "stop" : 1639398450562,
-    "duration" : 9356
+    "start" : 1639729110290,
+    "stop" : 1639729120661,
+    "duration" : 10371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9e349d6d78d4e4c",
+  "name" : "Add/remove to basket",
+  "time" : {
+    "start" : 1639729350320,
+    "stop" : 1639729366369,
+    "duration" : 16049
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "166acc142fbcccfe",
+  "name" : "Password meets length requirement",
+  "time" : {
+    "start" : 1639729094984,
+    "stop" : 1639729103717,
+    "duration" : 8733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dc8a0f7500c084b",
+  "name" : "update users info",
+  "time" : {
+    "start" : 1639729175066,
+    "stop" : 1639729182081,
+    "duration" : 7015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b815fdaf58f230bd",
+  "name" : "Invalid email input",
+  "time" : {
+    "start" : 1639729075521,
+    "stop" : 1639729085867,
+    "duration" : 10346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "153ba2d7e6900360",
+  "name" : "Positive login testing",
+  "time" : {
+    "start" : 1639729160076,
+    "stop" : 1639729168973,
+    "duration" : 8897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159f12128e6e1da3",
+  "name" : "Ordered fulfilled",
+  "time" : {
+    "start" : 1639729245256,
+    "stop" : 1639729257458,
+    "duration" : 12202
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e9f40bab35b599",
+  "name" : "Checking post for user creation",
+  "time" : {
+    "start" : 1639729330271,
+    "stop" : 1639729330362,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eddd68962be890ab",
+  "name" : "Buy the soldout item",
+  "time" : {
+    "start" : 1639729230109,
+    "stop" : 1639729236334,
+    "duration" : 6225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f49ae816e688d92",
+  "name" : "Negative login testing",
+  "time" : {
+    "start" : 1639729149996,
+    "stop" : 1639729154300,
+    "duration" : 4304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eded8ac00eab6bb4",
+  "name" : "Checking social media link",
+  "time" : {
+    "start" : 1639729340305,
+    "stop" : 1639729341091,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aace3b303b9c93eb",
+  "name" : "Warning: User is not unique",
+  "time" : {
+    "start" : 1639729130102,
+    "stop" : 1639729140254,
+    "duration" : 10152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55f4a0b94a15ce60",
+  "name" : "Checking positive loggin",
+  "time" : {
+    "start" : 1639729320621,
+    "stop" : 1639729320699,
+    "duration" : 78
   },
   "status" : "passed",
   "severity" : "normal"

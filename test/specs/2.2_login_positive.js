@@ -10,7 +10,7 @@ describe('Login testing', () => {
                 
         //Login page
         // User was registered with data: 'test@test.com', 'test123'
-        await loginPage.login('test2@test.com', 'test123');
+        await loginPage.login('test@test.com', 'test123');
         await browser.pause(5000);      
         //After login page
        // await browser.pause(1000);

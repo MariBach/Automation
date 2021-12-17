@@ -2,8 +2,6 @@ import mainPage from "../../pages/main.page.js"
 import loginPage from "../../pages/login.page.js"
 import profilePage from "../../pages/profile.page.js"
 
-
-
 describe('User profile testing', () => {
     it('update users info', async () => {
         //Main page

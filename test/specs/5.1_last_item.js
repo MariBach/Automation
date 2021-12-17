@@ -4,8 +4,7 @@ import basketPage from "../../pages/basket.js"
 import orderPage from "../../pages/order.page.js"
 import paymentOptions from "../../pages/payment.options.js"
 
-
-describe('Basket testing', () => {
+describe('Updating info at HomePage', () => {
     it('Buy the last item', async () => {
         //Main page
         await mainPage.open();

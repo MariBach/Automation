@@ -1,0 +1,98 @@
+{
+  "uid" : "b815fdaf58f230bd",
+  "name" : "Invalid email input",
+  "fullName" : "Registration testing.Invalid email input",
+  "historyId" : "896773b714c4bd1063b14a050f44e66",
+  "time" : {
+    "start" : 1639729075521,
+    "stop" : 1639729085867,
+    "duration" : 10346
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1639729078550,
+        "stop" : 1639729078550,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Input info test_test.com / test234 ",
+      "time" : {
+        "start" : 1639729083581,
+        "stop" : 1639729084318,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid email input"
+  }, {
+    "name" : "package",
+    "value" : "Registration testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b815fdaf58f230bd.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -2,8 +2,7 @@ import mainPage from "../../pages/main.page.js"
 import loginPage from "../../pages/login.page.js"
 import basketPage from "../../pages/basket.js"
 
-
-describe('Basket testing', () => {
+describe('Updating info at HomePage', () => {
     it('Buy the soldout item', async () => {
         //Main page
         await mainPage.open();

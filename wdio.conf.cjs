@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js'
+        './test/specs/**/*.js'
         //'./test/specs/2_negative.e2e.js'
         //'./test/specs/3_positive.e2e.js'
         //'./test/specs/4_sociallink.js'
@@ -34,7 +34,7 @@ exports.config = {
         //'./test/specs/user_profile.js'
         //'./test/specs/last_item.js'
         //'./test/specs/last_item_negative.js'
-        './test/specs/feedback.js'
+        //'./test/specs/feedback.js'
 
         
     ],

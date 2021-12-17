@@ -4,19 +4,272 @@
   "children" : [ {
     "name" : "Registration testing",
     "children" : [ {
-      "name" : "User registration",
-      "uid" : "9b7f8223a3c77b81",
+      "name" : "Invalid email input",
+      "uid" : "b815fdaf58f230bd",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {
-        "start" : 1639398441206,
-        "stop" : 1639398450562,
-        "duration" : 9356
+        "start" : 1639729075521,
+        "stop" : 1639729085867,
+        "duration" : 10346
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-96.0.4664.93" ]
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Password meets length requirement",
+      "uid" : "166acc142fbcccfe",
+      "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729094984,
+        "stop" : 1639729103717,
+        "duration" : 8733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "User registration",
+      "uid" : "e1021e963de89e37",
+      "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729110290,
+        "stop" : 1639729120661,
+        "duration" : 10371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Warning: User is not unique",
+      "uid" : "aace3b303b9c93eb",
+      "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729130102,
+        "stop" : 1639729140254,
+        "duration" : 10152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
     } ],
     "uid" : "9e4ffe71eafaea8821bec9315e842709"
+  }, {
+    "name" : "Login testing",
+    "children" : [ {
+      "name" : "Negative login testing",
+      "uid" : "3f49ae816e688d92",
+      "parentUid" : "f4b07889bbc65f7b0b91277384e5029a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729149996,
+        "stop" : 1639729154300,
+        "duration" : 4304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Positive login testing",
+      "uid" : "153ba2d7e6900360",
+      "parentUid" : "f4b07889bbc65f7b0b91277384e5029a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729160076,
+        "stop" : 1639729168973,
+        "duration" : 8897
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "f4b07889bbc65f7b0b91277384e5029a"
+  }, {
+    "name" : "User profile testing",
+    "children" : [ {
+      "name" : "update users info",
+      "uid" : "9dc8a0f7500c084b",
+      "parentUid" : "0a7d0284fc9fa408bfe89d4cd9bef19d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729175066,
+        "stop" : 1639729182081,
+        "duration" : 7015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "0a7d0284fc9fa408bfe89d4cd9bef19d"
+  }, {
+    "name" : "Updating info at HomePage",
+    "children" : [ {
+      "name" : "Buy the last item",
+      "uid" : "3b5edd4e58192dc3",
+      "parentUid" : "ffc96c741b323ceb328d37b4f543edb2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1639729205055,
+        "stop" : 1639729220499,
+        "duration" : 15444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Buy the soldout item",
+      "uid" : "eddd68962be890ab",
+      "parentUid" : "ffc96c741b323ceb328d37b4f543edb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729230109,
+        "stop" : 1639729236334,
+        "duration" : 6225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "ffc96c741b323ceb328d37b4f543edb2"
+  }, {
+    "name" : "Purchase flow tescting",
+    "children" : [ {
+      "name" : "Ordered fulfilled",
+      "uid" : "159f12128e6e1da3",
+      "parentUid" : "98c88021625ef5509028d199138a0653",
+      "status" : "broken",
+      "time" : {
+        "start" : 1639729245256,
+        "stop" : 1639729257458,
+        "duration" : 12202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "98c88021625ef5509028d199138a0653"
+  }, {
+    "name" : "Feedback testing",
+    "children" : [ {
+      "name" : "Feedback 3* testing",
+      "uid" : "ed980f02c105e9b8",
+      "parentUid" : "5d895ec696e10d664492cc49460efd7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729265373,
+        "stop" : 1639729275995,
+        "duration" : 10622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "5d895ec696e10d664492cc49460efd7d"
+  }, {
+    "name" : "Social link testing",
+    "children" : [ {
+      "name" : "Social link testing browser",
+      "uid" : "45c82f5a6e9bcca8",
+      "parentUid" : "e024648a9c085a31c3655499757dd40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729285442,
+        "stop" : 1639729293499,
+        "duration" : 8057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "e024648a9c085a31c3655499757dd40d"
+  }, {
+    "name" : "API testing",
+    "children" : [ {
+      "name" : "Checkig get feedback",
+      "uid" : "65846a05df7a4c82",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729300242,
+        "stop" : 1639729300296,
+        "duration" : 54
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Checking negative loggin",
+      "uid" : "57027477195facd4",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729310400,
+        "stop" : 1639729310446,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Checking positive loggin",
+      "uid" : "55f4a0b94a15ce60",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729320621,
+        "stop" : 1639729320699,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Checking post for user creation",
+      "uid" : "c0e9f40bab35b599",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729330271,
+        "stop" : 1639729330362,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Checking social media link",
+      "uid" : "eded8ac00eab6bb4",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639729340305,
+        "stop" : 1639729341091,
+        "duration" : 786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "6a5a2bc4c39354cd0a99938f20154cc8"
+  }, {
+    "name" : "Basket testing",
+    "children" : [ {
+      "name" : "Add/remove to basket",
+      "uid" : "a9e349d6d78d4e4c",
+      "parentUid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1639729350320,
+        "stop" : 1639729366369,
+        "duration" : 16049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841"
   } ]
 }

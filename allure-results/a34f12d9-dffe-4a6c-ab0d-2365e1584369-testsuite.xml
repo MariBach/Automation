@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639729320620' stop='1639729320702'>
+    <name>API testing</name>
+    <title>API testing</title>
+    <test-cases>
+        <test-case start='1639729320621' status='passed' stop='1639729320699'>
+            <name>Checking positive loggin</name>
+            <title>Checking positive loggin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -35,7 +35,9 @@ class MainPage extends BasePage {
 //open home page and close cop-up
     async open() {
         await super.open(`http://localhost:3000/#/`);
-        await this.closePopupBtn.click();
+        if (this.closePopupBtn.isClickable()) {
+            await this.closePopupBtn.click();
+        }
     }
 //click on user account
     async openAccountMenu() {

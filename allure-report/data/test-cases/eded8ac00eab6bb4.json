@@ -1,0 +1,58 @@
+{
+  "uid" : "eded8ac00eab6bb4",
+  "name" : "Checking social media link",
+  "fullName" : "API testing.Checking social media link",
+  "historyId" : "bb8c6972923c6e2bcdfbeb952034b01a",
+  "time" : {
+    "start" : 1639729340305,
+    "stop" : 1639729341091,
+    "duration" : 786
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "API testing"
+  }, {
+    "name" : "testClass",
+    "value" : "API testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking social media link"
+  }, {
+    "name" : "package",
+    "value" : "API testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eded8ac00eab6bb4.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

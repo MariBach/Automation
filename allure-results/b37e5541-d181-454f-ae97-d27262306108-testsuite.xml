@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639729245254' stop='1639729257460'>
+    <name>Purchase flow tescting</name>
+    <title>Purchase flow tescting</title>
+    <test-cases>
+        <test-case start='1639729245256' status='broken' stop='1639729257458'>
+            <name>Ordered fulfilled</name>
+            <title>Ordered fulfilled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639729247697' status='passed' stop='1639729247697'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639729250189' status='passed' stop='1639729250820'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='MyScreenshot' source='926d857d-76e3-4408-8769-89e35acb73d5-attachment.null' type='img/png' size='141032'/>
+            </attachments>
+            <failure>
+                <message>element click intercepted: Element &lt;button _ngcontent-qtb-c111="" id="checkoutButton" color="primary" mat-raised-button="" class="mat-focus-indicator checkout-button mat-raised-button mat-button-base mat-primary">...&lt;/button> is not clickable at point (630, 559). Other element would receive the click: &lt;div id="cdk-overlay-3" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...&lt;/div>
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00E46903+2517251]
+                	Ordinal0 [0x00DDF8E1+2095329]
+                	Ordinal0 [0x00CE2848+1058888]
+                	Ordinal0 [0x00D13509+1258761]
+                	Ordinal0 [0x00D11868+1251432]
+                	Ordinal0 [0x00D0F65D+1242717]
+                	Ordinal0 [0x00D0E4A8+1238184]
+                	Ordinal0 [0x00D04037+1196087]
+                	Ordinal0 [0x00D264D3+1336531]
+                	Ordinal0 [0x00D03A36+1194550]
+                	Ordinal0 [0x00D265BA+1336762]
+                	Ordinal0 [0x00D35BBF+1399743]
+                	Ordinal0 [0x00D2639B+1336219]
+                	Ordinal0 [0x00D027A7+1189799]
+                	Ordinal0 [0x00D03609+1193481]
+                	GetHandleVerifier [0x00FD5904+1577972]
+                	GetHandleVerifier [0x01080B97+2279047]
+                	GetHandleVerifier [0x00ED6D09+534521]
+                	GetHandleVerifier [0x00ED5DB9+530601]
+                	Ordinal0 [0x00DE4FF9+2117625]
+                	Ordinal0 [0x00DE98A8+2136232]
+                	Ordinal0 [0x00DE99E2+2136546]
+                	Ordinal0 [0x00DF3541+2176321]
+                	BaseThreadInitThunk [0x7631FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77D37A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77D37A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
