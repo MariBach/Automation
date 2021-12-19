@@ -38,12 +38,14 @@ class OrderPage extends BasePage {
         await this.deliveryAddress.click();
     }
     async moveToPaymentInfo() {
+        await this.moveToPayInfoBtn.waitForClickable();
         await this.moveToPayInfoBtn.click();
     }
     async chooseDeliverySpeed() {
         await this.deliverySpeed.click();
     }
     async proccedToDeliveryMethod() {
+        await this.proceedToDeliveryMethodBtn.waitForClickable();
         await this.proceedToDeliveryMethodBtn.click();
     }
     async orderConfirmation() {

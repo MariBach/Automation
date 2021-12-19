@@ -21,9 +21,9 @@ describe('Feedback testing', () => {
         await feedbackPage.setRating();
         //let captcha = getCaptcha(feedbackPage.captchaQuestion);
         await feedbackPage.inputCaptcha();        
-        await browser.pause(2000);
+        //await browser.pause(2000);
         await feedbackPage.submitFeedback();
-        await browser.pause(2000);
+        //await browser.pause(2000);
         await feedbackPage.checkFeedbackAccepted();
 
     })

@@ -38,5 +38,6 @@ export default new ProfilePage();
 //$$('button[aria-label$="profile"]') - go to user profile
 //$$('#username') - input username
 //$$('#submit') - confirm username
-//$$('#picture') - 
+//$$('#picture') -
 //$$('button[aria-label$="picture"]') - upload photo
+//$x('(//div[contains(text(),"Order ID")])[1]') - order history page

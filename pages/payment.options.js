@@ -34,10 +34,12 @@ class PaymentOptions extends BasePage {
     async inputCardInfo(name, number,month, year) {
         await this.cardOwnerName.setValue(name);
         await this.cardNumber.setValue(number);
+        await this.expireMonth.waitForClickable();
         await this.expireMonth.selectMonth(month);
         await this.exprireYear.selectYear(year);
     }
     async submitCardInfo() {
+        await this.submitButton.waitForClickable();
         await this.submitButton.click();
     }
     async choosePaymentMethod() {

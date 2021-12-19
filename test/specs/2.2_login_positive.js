@@ -6,14 +6,12 @@ describe('Login testing', () => {
         //Main page
         await mainPage.open();
         await mainPage.openAccountMenu();
-        await mainPage.navigateToLogin();
-                
+        await mainPage.navigateToLogin();                
         //Login page
         // User was registered with data: 'test@test.com', 'test123'
-        await loginPage.login('test@test.com', 'test123');
-        await browser.pause(5000);      
+        await loginPage.login('test@test.com', 'test123');           
         //After login page
-       // await browser.pause(1000);
+        //await browser.pause(1000);
         await expect(mainPage.accCart).toBeExisting(); //only login users can see the shopping cart element
 
     });

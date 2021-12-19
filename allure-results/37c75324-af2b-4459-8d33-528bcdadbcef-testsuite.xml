@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639907240742' stop='1639907248920'>
+    <name>Basket testing</name>
+    <title>Basket testing</title>
+    <test-cases>
+        <test-case start='1639907240742' status='passed' stop='1639907248916'>
+            <name>Add/remove to basket</name>
+            <title>Add/remove to basket</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-19'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639907244189' status='passed' stop='1639907244189'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639907244935' status='passed' stop='1639907245666'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

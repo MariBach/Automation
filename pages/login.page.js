@@ -40,7 +40,8 @@ class LoginPage extends BasePage{
         await this.errMessage.isExisting();
     }
 // move to registration form
-    async moveToRegister() {        
+    async moveToRegister() { 
+        await this.registerBtn.waitForClickable();
         await this.registerBtn.click();
     }    
 }

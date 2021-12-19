@@ -15,7 +15,7 @@ describe('Registration testing', () => {
         await registerPage.selectQuestion("Mother's maiden name?");
         await registerPage.inputAnswer('Name');        
         await registerPage.confirmRegister();
-        await browser.pause(1000);
+        //await browser.pause(1000);
         //await registerPage.waitForNotice();
         //await registerPage.waitForPageAvailable(registerPage.emailNotUnique);
         await registerPage.checkUserUnique();

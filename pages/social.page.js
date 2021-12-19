@@ -11,6 +11,7 @@ class SocialLink extends BasePage{
         return new Button ($('a[aria-label="Button for the Twitter page of the shop"]'), 'twitter icon');
     }
     async clickSoclLink() {
+        await this.fbIcon.waitForClickable();
         await this.fbIcon.click();
     }
     async switchTo() {

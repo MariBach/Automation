@@ -8,11 +8,9 @@ describe('Registration testing', () => {
         await mainPage.open();
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();
-        await browser.pause(1000);
-
+        //await browser.pause(1000);
         //Login Page
         await loginPage.moveToRegister();
-
         //Registration form fill in
         await registerPage.register('test@test.com', 'test123');
         await registerPage.selectQuestion("Mother's maiden name?");

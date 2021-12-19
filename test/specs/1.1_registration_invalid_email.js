@@ -8,14 +8,14 @@ describe('Registration testing', () => {
         await mainPage.open();
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();
-        await browser.pause(1000);
+        //await browser.pause(1000);
         //Login Page
         await loginPage.moveToRegister();
         //Registration form fill in
         await registerPage.register('test_test.com', 'test234');
         await registerPage.selectQuestion("Mother's maiden name?");
         await registerPage.inputAnswer('Name');
-        await browser.pause(1000);
+        //await browser.pause(1000);
         await registerPage.checkUser();
     });
 })

@@ -41,11 +41,13 @@ class MainPage extends BasePage {
     }
 //click on user account
     async openAccountMenu() {
+        await this.accountMenuBtn.waitForClickable();
         await this.accountMenuBtn.click();
 
     }
     async navigateToLogin() {
         await allure.addStep(`Open login window`);
+        await this.toLoginBtn.waitForClickable();
         await this.toLoginBtn.click();        
     }
     async openUserProfile() {

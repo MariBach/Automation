@@ -11,6 +11,7 @@ describe('Social link testing', () => {
         await sideBar.waitForScreenAvailable(sideBar.sideBarScroll);
         await sideBar.clickAboutUs();      
         await socialLink.clickSoclLink();
+        await browser.pause(1000);
         //Social page
         await socialLink.switchTo();
         await expect(socialLink.fbElement).toBeExisting();

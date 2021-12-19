@@ -12,13 +12,13 @@ describe('Purchase flow testing', () => {
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();
         await mainPage.closeCockieMessage();
-        await browser.pause(2000);
+        //await browser.pause(2000);
         //Login page--- User was registered with data: 'test_reg@test.com', 'test234'
         await loginPage.login('test@test.com', 'test123');
         //add product to a cart
         await basketPage.addApplePomace();
         await mainPage.openCart();
-        await browser.pause(1000);
+        //await browser.pause(1000);
         //start order fulfill
         await orderPage.checkOut();
         //input address info

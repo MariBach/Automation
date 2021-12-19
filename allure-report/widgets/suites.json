@@ -7,9 +7,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     }
   }, {
     "uid" : "9e4ffe71eafaea8821bec9315e842709",
@@ -23,8 +23,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "f4b07889bbc65f7b0b91277384e5029a",
-    "name" : "Login testing",
+    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+    "name" : "Basket testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "ffc96c741b323ceb328d37b4f543edb2",
-    "name" : "Updating info at HomePage",
+    "uid" : "f4b07889bbc65f7b0b91277384e5029a",
+    "name" : "Login testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -67,6 +67,17 @@
       "total" : 1
     }
   }, {
+    "uid" : "ffc96c741b323ceb328d37b4f543edb2",
+    "name" : "Updating info at HomePage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "5d895ec696e10d664492cc49460efd7d",
     "name" : "Feedback testing",
     "statistic" : {
@@ -80,17 +91,6 @@
   }, {
     "uid" : "e024648a9c085a31c3655499757dd40d",
     "name" : "Social link testing",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841",
-    "name" : "Basket testing",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -22,16 +22,16 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.js',
         //'./test/specs/1.1_registration_invalid_email.js'
         //'./test/specs/1.2_registration_invalid.pswd.js'
         //'./test/specs/1.3_registration.positive.js'
         //'./test/specs/1.4_registration_notunique.user.js'
         //'./test/specs/2.1_login_negative.js'
         //'./test/specs/2.2_login_positive.js'
-        //'./test/specs/3_user_profile.js'               
+        //'./test/specs/3_user_profile.js'
         //'./test/specs/4_basket_check.js'
-        //'./test/specs/5_order_fulfill.js'        
+        //'./test/specs/5_order_fulfill.js'
         //'./test/specs/6.1_last_item.js'
         //'./test/specs/6.1_last_item_negative.js'
         //'./test/specs/7_feedback.js'
@@ -42,6 +42,9 @@ exports.config = {
         //'./test/specs/9.4_api_registration.js'
         //'./test/specs/9.5_api_sociallink.js'
         //'./test/specs/gotohomepage.js'
+        //'./test/specs/9.6_api_switch_locale.js'
+       // './test/specs/9.7_api_productreview.js'
+        //'./test/specs/9.7_api_productreview.js'
 
         
     ],
@@ -72,15 +75,14 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-    
+    /*
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-      //  maxInstances: 1,
-        //
-      //  browserName: 'firefox',
-    //},
-       // { 
+        maxInstances: 1,
+        browserName: 'firefox',
+    },
+       { */
         maxInstances: 1,   
         browserName: 'chrome',
         'goog:chromeOptions': {
@@ -90,6 +92,7 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
+        
     }],
     //
     // ===================

@@ -34,6 +34,7 @@ class AddressInfo extends BasePage{
         await this.cityInfo.setValue(city);
     }
     async submitAddressInfo() {
+        await this.submitBtn.waitForClickable();
         await this.submitBtn.click();
     }
 }

@@ -5,7 +5,7 @@ const expect = chai.expect;
 describe('API testing', () => {
     it('Checking post for user creation', async () => {
         let requestBody = {
-            "email": "test11@test.com", "password": "test123", "passwordRepeat": "test123",
+            "email": "test1@test.com", "password": "test123", "passwordRepeat": "test123",
             "securityAnswer": "11/12/1959", "securityQuestion":
                 { 'id': 3, 'question': "Mother's birth date? (MM/DD/YY)","createdAt": "2021-12-12"}
         }

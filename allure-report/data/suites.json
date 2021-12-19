@@ -2,55 +2,85 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
+    "name" : "Basket testing",
+    "children" : [ {
+      "name" : "Add/remove to basket",
+      "uid" : "265dd600ad2e1707",
+      "parentUid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639869795994,
+        "stop" : 1639869806483,
+        "duration" : 10489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-95.0" ]
+    }, {
+      "name" : "Add/remove to basket",
+      "uid" : "5ee3d4d943a6be58",
+      "parentUid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639907240742,
+        "stop" : 1639907248916,
+        "duration" : 8174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841"
+  }, {
     "name" : "Registration testing",
     "children" : [ {
       "name" : "Invalid email input",
-      "uid" : "929f72e90cf4a9e3",
+      "uid" : "c41c52bacc9a4ae3",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {
-        "start" : 1639741057855,
-        "stop" : 1639741068536,
-        "duration" : 10681
+        "start" : 1639906981051,
+        "stop" : 1639906993169,
+        "duration" : 12118
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Password meets length requirement",
-      "uid" : "1fbc4ef167c30529",
+      "uid" : "f97f2abc1b46bb37",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {
-        "start" : 1639741081646,
-        "stop" : 1639741090199,
-        "duration" : 8553
+        "start" : 1639907000210,
+        "stop" : 1639907008694,
+        "duration" : 8484
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "User registration",
-      "uid" : "3f99f679adbbf3b4",
+      "uid" : "8ca736dba8c41110",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {
-        "start" : 1639741096653,
-        "stop" : 1639741106414,
-        "duration" : 9761
+        "start" : 1639907015368,
+        "stop" : 1639907024811,
+        "duration" : 9443
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Warning: User is not unique",
-      "uid" : "b7fdacca95406470",
+      "uid" : "b2ac131f4befdb05",
       "parentUid" : "9e4ffe71eafaea8821bec9315e842709",
       "status" : "passed",
       "time" : {
-        "start" : 1639741111994,
-        "stop" : 1639741121857,
-        "duration" : 9863
+        "start" : 1639907030251,
+        "stop" : 1639907041275,
+        "duration" : 11024
       },
       "flaky" : false,
       "newFailed" : false,
@@ -61,26 +91,26 @@
     "name" : "Login testing",
     "children" : [ {
       "name" : "Negative login testing",
-      "uid" : "674a9be584778687",
+      "uid" : "869996f755c7c334",
       "parentUid" : "f4b07889bbc65f7b0b91277384e5029a",
       "status" : "passed",
       "time" : {
-        "start" : 1639741126640,
-        "stop" : 1639741130759,
-        "duration" : 4119
+        "start" : 1639907050590,
+        "stop" : 1639907055637,
+        "duration" : 5047
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Positive login testing",
-      "uid" : "f5d7557f72a4b1ee",
+      "uid" : "b8f21192a85d6e9f",
       "parentUid" : "f4b07889bbc65f7b0b91277384e5029a",
       "status" : "passed",
       "time" : {
-        "start" : 1639741136563,
-        "stop" : 1639741145354,
-        "duration" : 8791
+        "start" : 1639907060261,
+        "stop" : 1639907066262,
+        "duration" : 6001
       },
       "flaky" : false,
       "newFailed" : false,
@@ -91,13 +121,13 @@
     "name" : "User profile testing",
     "children" : [ {
       "name" : "update users info",
-      "uid" : "f4a6a652d51c5ad8",
+      "uid" : "2386b27aa9f68bf4",
       "parentUid" : "0a7d0284fc9fa408bfe89d4cd9bef19d",
       "status" : "passed",
       "time" : {
-        "start" : 1639741151545,
-        "stop" : 1639741158657,
-        "duration" : 7112
+        "start" : 1639907075596,
+        "stop" : 1639907086033,
+        "duration" : 10437
       },
       "flaky" : false,
       "newFailed" : false,
@@ -108,13 +138,13 @@
     "name" : "Purchase flow testing",
     "children" : [ {
       "name" : "Ordered fulfilled",
-      "uid" : "12d9e671a45276b8",
+      "uid" : "6d5d28828949ffdb",
       "parentUid" : "df431b8b147a5a568d4b706402edbb51",
       "status" : "passed",
       "time" : {
-        "start" : 1639741181633,
-        "stop" : 1639741199071,
-        "duration" : 17438
+        "start" : 1639907110473,
+        "stop" : 1639907127867,
+        "duration" : 17394
       },
       "flaky" : false,
       "newFailed" : false,
@@ -124,27 +154,14 @@
   }, {
     "name" : "Updating info at HomePage",
     "children" : [ {
-      "name" : "Buy the last item",
-      "uid" : "ca02ab9c9f57df77",
-      "parentUid" : "ffc96c741b323ceb328d37b4f543edb2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639741206861,
-        "stop" : 1639741218042,
-        "duration" : 11181
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
       "name" : "Buy the soldout item",
-      "uid" : "6998768ae52fa7b0",
+      "uid" : "509bf5ca66cb1154",
       "parentUid" : "ffc96c741b323ceb328d37b4f543edb2",
       "status" : "passed",
       "time" : {
-        "start" : 1639741226717,
-        "stop" : 1639741235718,
-        "duration" : 9001
+        "start" : 1639907135705,
+        "stop" : 1639907145036,
+        "duration" : 9331
       },
       "flaky" : false,
       "newFailed" : false,
@@ -155,13 +172,13 @@
     "name" : "Feedback testing",
     "children" : [ {
       "name" : "Feedback 3* testing",
-      "uid" : "29b32309ad4e13d1",
+      "uid" : "b6719418fb613b8e",
       "parentUid" : "5d895ec696e10d664492cc49460efd7d",
       "status" : "passed",
       "time" : {
-        "start" : 1639741241687,
-        "stop" : 1639741252115,
-        "duration" : 10428
+        "start" : 1639907150547,
+        "stop" : 1639907159567,
+        "duration" : 9020
       },
       "flaky" : false,
       "newFailed" : false,
@@ -172,13 +189,13 @@
     "name" : "Social link testing",
     "children" : [ {
       "name" : "Social link testing browser",
-      "uid" : "3288986c18ba9dc6",
+      "uid" : "d0484bba93934d1e",
       "parentUid" : "e024648a9c085a31c3655499757dd40d",
       "status" : "passed",
       "time" : {
-        "start" : 1639741256742,
-        "stop" : 1639741264087,
-        "duration" : 7345
+        "start" : 1639907165609,
+        "stop" : 1639907183904,
+        "duration" : 18295
       },
       "flaky" : false,
       "newFailed" : false,
@@ -189,87 +206,83 @@
     "name" : "API testing",
     "children" : [ {
       "name" : "Checkig get feedback",
-      "uid" : "b3e0b77f5bfa9c91",
+      "uid" : "cb21edcbecd759da",
       "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
       "status" : "passed",
       "time" : {
-        "start" : 1639741271787,
-        "stop" : 1639741271833,
-        "duration" : 46
+        "start" : 1639907190687,
+        "stop" : 1639907190741,
+        "duration" : 54
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Checking negative loggin",
-      "uid" : "64b91c71b7afa392",
+      "uid" : "614c3e8978581db4",
       "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
       "status" : "passed",
       "time" : {
-        "start" : 1639741276811,
-        "stop" : 1639741276843,
-        "duration" : 32
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "Checking positive loggin",
-      "uid" : "ac0ecd75fca2cc6",
-      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639741281828,
-        "stop" : 1639741281863,
-        "duration" : 35
+        "start" : 1639907195863,
+        "stop" : 1639907195917,
+        "duration" : 54
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Checking post for user creation",
-      "uid" : "d0f3d7efd515101b",
+      "uid" : "b9a9c104d8db2abe",
       "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
       "status" : "passed",
       "time" : {
-        "start" : 1639741286838,
-        "stop" : 1639741286908,
-        "duration" : 70
+        "start" : 1639907210723,
+        "stop" : 1639907210803,
+        "duration" : 80
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Checking social media link",
-      "uid" : "2e9bac9c2e6eb53e",
+      "uid" : "7ee28e9e51f481f4",
       "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
       "status" : "passed",
       "time" : {
-        "start" : 1639741291829,
-        "stop" : 1639741292689,
-        "duration" : 860
+        "start" : 1639907215739,
+        "stop" : 1639907216700,
+        "duration" : 961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Checking positive loggin",
+      "uid" : "4212668ccc486fcc",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639907225863,
+        "stop" : 1639907225915,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    }, {
+      "name" : "Write product review",
+      "uid" : "bd01d85077e2a4e8",
+      "parentUid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639907235750,
+        "stop" : 1639907235789,
+        "duration" : 39
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     } ],
     "uid" : "6a5a2bc4c39354cd0a99938f20154cc8"
-  }, {
-    "name" : "Basket testing",
-    "children" : [ {
-      "name" : "Add/remove to basket",
-      "uid" : "84a5d805e301bef1",
-      "parentUid" : "6a7e2c153d7e37d26ec59cf792bdb841",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639741302031,
-        "stop" : 1639741308881,
-        "duration" : 6850
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    } ],
-    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841"
   } ]
 }
