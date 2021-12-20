@@ -2,6 +2,7 @@
 import BasePage from '../base/basePage.js';
 import Button from '../elements/button.js';
 import BaseElement from '../base/baseElement.js';
+import chai from "chai";
 
 class MainPage extends BasePage {
     get accountMenuBtn() {
@@ -27,7 +28,8 @@ class MainPage extends BasePage {
         return new Button($('img.logo'));
     }
     get jsArtworkSoldoutImg() {
-        return new BaseElement($('img[src$="artwork2.jpg"]'));
+        //return new BaseElement($('(//span[contains(text(), "Sold Out")])[1]'));
+        return new BaseElement($('(//div[@class="mat-grid-tile-content"])[4]'));
     }
     get soldOutMsg() {
         return new BaseElement($('//span[contains(text(), "We are out of stock! Sorry for the inconvenience.")]'));
@@ -62,9 +64,18 @@ class MainPage extends BasePage {
     async gotoHomePage() {
         this.logoImg.click();
     }
-    async checkSwitchJSartwork() {
-        await expect(this.jsArtworkSoldoutImg).toBeExisting();
+  //  async checkSwitchJSartwork() {
+  //      await expect(this.jsArtworkSoldoutImg).toBeExisting();
+  //  }
+    async checkSwitchLabel() {
+        //await chai.expect(this.jsArtworkSoldoutImg).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤`)
+        let text = await this.jsArtworkSoldoutImg.getText();
+        let label = await text.substring(0, 8);
+        await console.log(label);
+        await chai.expect(label).to.equal('Sold Out');
+        // await chai.expect(label).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤\nAdd to Basket`);
     }
+    
     async checkLastItem() {
         await expect(this.soldOutMsg).toBeExisting();
     }
@@ -73,3 +84,4 @@ class MainPage extends BasePage {
 export default new MainPage();
 
 //$('img.logo')
+//$x('(//div[@class="mat-grid-tile-content"])[4]')

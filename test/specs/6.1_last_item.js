@@ -5,11 +5,11 @@ import orderPage from "../../pages/order.page.js"
 import paymentOptions from "../../pages/payment.options.js"
 
 describe('Updating info at HomePage', () => {
-    it('Buy the soldout item', async () => {
+    it('Buy the last item', async () => {
         //Main page
         await mainPage.open();
         await mainPage.openAccountMenu();
-        await mainPage.navigateToLogin();
+        await mainPage.navigateToLogin();                
         //Login page
         // User was registered with data: 'test_reg@test.com', 'test234'
         await loginPage.login('test@test.com', 'test123');
@@ -24,10 +24,14 @@ describe('Updating info at HomePage', () => {
         await orderPage.proccedToDeliveryMethod();
         await paymentOptions.choosePaymentMethod();
         await paymentOptions.proceedToReview();
-        await orderPage.checkOut();        
+        await orderPage.checkOut();
         await mainPage.gotoHomePage();
-       // await basketPage.addJSartwork();
-        //await mainPage.checkLastItem();
+        await mainPage.checkSwitchJSartwork();
         //await browser.pause(1000);
-    })
-})    
+        //await basketPage.addJSartwork();
+        //await basketPage.removeFromCart();
+        //await basketPage.checkEmptyCart();
+    });
+})  
+// $x('(//span[contains(text(), "Only 1 left")])[1]') -locator for ribbon 'last item'
+// $x('(//span[contains(text(), "Sold Out")])[1]') - locator for ribbon 'sold out'

@@ -22,7 +22,8 @@
         "webdriverio": "^7.16.10"
     },
     "scripts": {     
-        "wdio-chrome": "wdio run wdio.conf.cjs -c chrome",   
+        "wdio-chrome": "wdio run wdio.conf.chrome.cjs",
+        "wdio-firefox":"wdio run wdio.conf.firefox.cjs",   
         "wdio": "wdio run wdio.conf.cjs",
         "test": "mocha test/**/*.js",
         "allure": "./node_modules/.bin/allure generate allure-results -o allure-report --clean && allure open"
