@@ -1,0 +1,113 @@
+{
+  "uid" : "fc0ec0655d1f703",
+  "name" : "User registration",
+  "fullName" : "Registration testing.User registration",
+  "historyId" : "3497804e8a7193a7758608b22c7ac4f0",
+  "time" : {
+    "start" : 1640080537315,
+    "stop" : 1640080552521,
+    "duration" : 15206
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080543702,
+        "stop" : 1640080543702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input info test@test.com / test123 ",
+      "time" : {
+        "start" : 1640080548989,
+        "stop" : 1640080550847,
+        "duration" : 1858
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Registration confirmation",
+      "time" : {
+        "start" : 1640080552159,
+        "stop" : 1640080552159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration"
+  }, {
+    "name" : "package",
+    "value" : "Registration testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc0ec0655d1f703.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

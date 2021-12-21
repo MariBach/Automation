@@ -1,0 +1,98 @@
+{
+  "uid" : "4ebcfbd8546ff5c",
+  "name" : "Social link testing browser",
+  "fullName" : "Social link testing.Social link testing browser",
+  "historyId" : "6bbf113e9a2979ec56f92d8938154d26",
+  "time" : {
+    "start" : 1640080831742,
+    "stop" : 1640080844057,
+    "duration" : 12315
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'About Us' section",
+      "time" : {
+        "start" : 1640080835168,
+        "stop" : 1640080835168,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open social page",
+      "time" : {
+        "start" : 1640080839175,
+        "stop" : 1640080839175,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Social link testing browser"
+  }, {
+    "name" : "package",
+    "value" : "Social link testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ebcfbd8546ff5c.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

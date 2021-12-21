@@ -1,0 +1,58 @@
+{
+  "uid" : "2b21e7d022988a5f",
+  "name" : "Checking social media link",
+  "fullName" : "API testing.Checking social media link",
+  "historyId" : "a6deaa53eaac3d7dfc2a6557537da91c",
+  "time" : {
+    "start" : 1640080896796,
+    "stop" : 1640080899925,
+    "duration" : 3129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "API testing"
+  }, {
+    "name" : "testClass",
+    "value" : "API testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking social media link"
+  }, {
+    "name" : "package",
+    "value" : "API testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b21e7d022988a5f.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

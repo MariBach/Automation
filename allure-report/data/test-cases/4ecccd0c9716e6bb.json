@@ -1,0 +1,98 @@
+{
+  "uid" : "4ecccd0c9716e6bb",
+  "name" : "Password meets length requirement",
+  "fullName" : "Registration testing.Password meets length requirement",
+  "historyId" : "d143fe48fc4c030e4065ee45f7554eb6",
+  "time" : {
+    "start" : 1640080509914,
+    "stop" : 1640080519930,
+    "duration" : 10016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080514769,
+        "stop" : 1640080514769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input info test@test.com / test ",
+      "time" : {
+        "start" : 1640080519281,
+        "stop" : 1640080519866,
+        "duration" : 585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Password meets length requirement"
+  }, {
+    "name" : "package",
+    "value" : "Registration testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ecccd0c9716e6bb.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

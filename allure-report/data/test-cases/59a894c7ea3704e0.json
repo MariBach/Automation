@@ -1,0 +1,98 @@
+{
+  "uid" : "59a894c7ea3704e0",
+  "name" : "Invalid email input",
+  "fullName" : "Registration testing.Invalid email input",
+  "historyId" : "96cb18083f77f826291e41396cda7541",
+  "time" : {
+    "start" : 1640080486247,
+    "stop" : 1640080496887,
+    "duration" : 10640
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080490645,
+        "stop" : 1640080490645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input info test_test.com / test234 ",
+      "time" : {
+        "start" : 1640080494858,
+        "stop" : 1640080495857,
+        "duration" : 999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid email input"
+  }, {
+    "name" : "package",
+    "value" : "Registration testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59a894c7ea3704e0.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

@@ -28,16 +28,19 @@ class OrderPage extends BasePage {
         return new BaseElement($('h1.confirmation'));
     }
     async checkOut() {
+        await allure.addStep(`Open order page`);
         await this.checkOutBtn.waitForClickable();
         await this.checkOutBtn.click();
     }
     async NewAddressOpen() {
+        await allure.addStep(`Open address info input`);
         await this.addNewAddressBtn.click();
     }
     async chooseDeliveryAddress() {
         await this.deliveryAddress.click();
     }
     async moveToPaymentInfo() {
+        await allure.addStep(`Open payment info page`);
         await this.moveToPayInfoBtn.waitForClickable();
         await this.moveToPayInfoBtn.click();
     }

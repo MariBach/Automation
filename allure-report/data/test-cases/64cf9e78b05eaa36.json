@@ -1,0 +1,98 @@
+{
+  "uid" : "64cf9e78b05eaa36",
+  "name" : "Negative login testing",
+  "fullName" : "Login testing.Negative login testing",
+  "historyId" : "4e4a44ff9b3ec45f9473fea574be37cb",
+  "time" : {
+    "start" : 1640080599315,
+    "stop" : 1640080609813,
+    "duration" : 10498
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080607200,
+        "stop" : 1640080607200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@mail.com / test124 ",
+      "time" : {
+        "start" : 1640080608623,
+        "stop" : 1640080609679,
+        "duration" : 1056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Login testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Login testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Negative login testing"
+  }, {
+    "name" : "package",
+    "value" : "Login testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64cf9e78b05eaa36.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

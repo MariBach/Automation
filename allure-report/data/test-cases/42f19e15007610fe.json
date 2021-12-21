@@ -1,0 +1,98 @@
+{
+  "uid" : "42f19e15007610fe",
+  "name" : "Ordered fulfilled",
+  "fullName" : "Purchase flow testing.Ordered fulfilled",
+  "historyId" : "1ebddd37e59d357976bcacefaf4c8d0f",
+  "time" : {
+    "start" : 1640080643593,
+    "stop" : 1640080666908,
+    "duration" : 23315
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080646936,
+        "stop" : 1640080646936,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1640080647564,
+        "stop" : 1640080648914,
+        "duration" : 1350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-8"
+  }, {
+    "name" : "suite",
+    "value" : "Purchase flow testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Purchase flow testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ordered fulfilled"
+  }, {
+    "name" : "package",
+    "value" : "Purchase flow testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42f19e15007610fe.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

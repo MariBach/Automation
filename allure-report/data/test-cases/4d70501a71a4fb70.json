@@ -1,0 +1,98 @@
+{
+  "uid" : "4d70501a71a4fb70",
+  "name" : "Feedback 3* testing",
+  "fullName" : "Feedback testing.Feedback 3* testing",
+  "historyId" : "a7c1aa80b78b1ca2109bc7d6d91978ff",
+  "time" : {
+    "start" : 1640080714392,
+    "stop" : 1640080727852,
+    "duration" : 13460
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080719422,
+        "stop" : 1640080719422,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1640080720334,
+        "stop" : 1640080722188,
+        "duration" : 1854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-11"
+  }, {
+    "name" : "suite",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Feedback 3* testing"
+  }, {
+    "name" : "package",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d70501a71a4fb70.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

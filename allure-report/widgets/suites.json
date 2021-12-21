@@ -1,4 +1,103 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 9,
+  "items" : [ {
+    "uid" : "6a7e2c153d7e37d26ec59cf792bdb841",
+    "name" : "Basket testing",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ffc96c741b323ceb328d37b4f543edb2",
+    "name" : "Updating info at HomePage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "6a5a2bc4c39354cd0a99938f20154cc8",
+    "name" : "API testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "0a7d0284fc9fa408bfe89d4cd9bef19d",
+    "name" : "User profile testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "9e4ffe71eafaea8821bec9315e842709",
+    "name" : "Registration testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "f4b07889bbc65f7b0b91277384e5029a",
+    "name" : "Login testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "df431b8b147a5a568d4b706402edbb51",
+    "name" : "Purchase flow testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5d895ec696e10d664492cc49460efd7d",
+    "name" : "Feedback testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e024648a9c085a31c3655499757dd40d",
+    "name" : "Social link testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
 }

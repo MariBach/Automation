@@ -1,6 +1,6 @@
-import mainPage from "../../pages/main.page.js"
-import loginPage from "../../pages/login.page.js"
-import basketPage from "../../pages/basket.js"
+import mainPage from "./pages/main.page.js"
+import loginPage from "./pages/login.page.js"
+import basketPage from "./pages/basket.js"
 
 
 describe('Basket testing', () => {

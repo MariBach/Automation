@@ -31,21 +31,23 @@ class PaymentOptions extends BasePage {
     async openCardInputInfo() {
     await this.addNewCardDrop.click();
     }
-    async inputCardInfo(name, number,month, year) {
+    async inputCardInfo(name, number, month, year) {
+        await allure.startStep(`Input payment infp`);
         await this.cardOwnerName.setValue(name);
         await this.cardNumber.setValue(number);
         await this.expireMonth.waitForClickable();
         await this.expireMonth.selectMonth(month);
         await this.exprireYear.selectYear(year);
+        await await allure.endStep(`passed`);
     }
     async submitCardInfo() {
+        await allure.addStep(`Submit payment info`);
         await this.submitButton.waitForClickable();
         await this.submitButton.click();
     }
     async choosePaymentMethod() {
         await this.PaymentOptions.click();
     }
-
     async proceedToReview() {
         await this.proceedToReviewBtn.click();
     }

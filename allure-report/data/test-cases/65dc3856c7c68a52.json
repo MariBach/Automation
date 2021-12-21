@@ -1,0 +1,82 @@
+{
+  "uid" : "65dc3856c7c68a52",
+  "name" : "Checking post for user creation",
+  "fullName" : "API testing.Checking post for user creation",
+  "historyId" : "8696b4c5c0b55d81d7432549eec7e314",
+  "time" : {
+    "start" : 1640080886784,
+    "stop" : 1640080886959,
+    "duration" : 175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Bad Request",
+  "statusTrace" : "Error: Bad Request\n                    at Request.callback (C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\index.js:883:15)\n                    at C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\index.js:1127:20\n                    at IncomingMessage.<anonymous> (C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\parsers\\json.js:22:7)\n                    at IncomingMessage.emit (events.js:412:35)\n                    at IncomingMessage.emit (domain.js:475:12)\n                    at endReadableNT (internal/streams/readable.js:1334:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Bad Request",
+    "statusTrace" : "Error: Bad Request\n                    at Request.callback (C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\index.js:883:15)\n                    at C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\index.js:1127:20\n                    at IncomingMessage.<anonymous> (C:\\Users\\User\\Desktop\\Coursera\\Automation Bootcamp\\Automation\\node_modules\\superagent\\lib\\node\\parsers\\json.js:22:7)\n                    at IncomingMessage.emit (events.js:412:35)\n                    at IncomingMessage.emit (domain.js:475:12)\n                    at endReadableNT (internal/streams/readable.js:1334:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5df34134685d460d",
+      "name" : "MyScreenshot",
+      "source" : "5df34134685d460d.null",
+      "type" : "img/png",
+      "size" : 8909
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "API testing"
+  }, {
+    "name" : "testClass",
+    "value" : "API testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking post for user creation"
+  }, {
+    "name" : "package",
+    "value" : "API testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "65dc3856c7c68a52.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

@@ -43,6 +43,7 @@ class MainPage extends BasePage {
     }
 //click on user account
     async openAccountMenu() {
+        await allure.addStep(`Open account menu`);
         await this.accountMenuBtn.waitForClickable();
         await this.accountMenuBtn.click();
 
@@ -53,15 +54,18 @@ class MainPage extends BasePage {
         await this.toLoginBtn.click();        
     }
     async openUserProfile() {
+        await allure.addStep(`Open user profile page`);
         await this.userProfileBtn.click();
     }
     async openCart() {
+        await allure.addStep(`Open cart`);
         await this.accCart.click();
     }
     async closeCockieMessage() {
         this.dismissBtn.click();
     }
     async gotoHomePage() {
+        await allure.addStep(`Open login window`);
         this.logoImg.click();
     }
   //  async checkSwitchJSartwork() {
@@ -69,9 +73,10 @@ class MainPage extends BasePage {
   //  }
     async checkSwitchLabel() {
         //await chai.expect(this.jsArtworkSoldoutImg).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤`)
+        await allure.addStep(`Check 'Sold Out' label`);
         let text = await this.jsArtworkSoldoutImg.getText();
         let label = await text.substring(0, 8);
-        await console.log(label);
+        //await console.log(label);
         await chai.expect(label).to.equal('Sold Out');
         // await chai.expect(label).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤\nAdd to Basket`);
     }

@@ -1,0 +1,98 @@
+{
+  "uid" : "48180005b73ec53b",
+  "name" : "Feedback 3* testing",
+  "fullName" : "Feedback testing.Feedback 3* testing",
+  "historyId" : "8dd24e73c6683985aa5b63e2d60aa052",
+  "time" : {
+    "start" : 1640080806888,
+    "stop" : 1640080818617,
+    "duration" : 11729
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080809717,
+        "stop" : 1640080809717,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1640080811686,
+        "stop" : 1640080812642,
+        "duration" : 956
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Feedback 3* testing"
+  }, {
+    "name" : "package",
+    "value" : "Feedback testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48180005b73ec53b.json",
+  "parameterValues" : [ "firefox-95.0" ]
+}

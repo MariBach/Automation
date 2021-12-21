@@ -29,17 +29,21 @@ class FeedbackPage extends BasePage{
         return new BaseElement($('simple-snack-bar'));
     }
     async setRating() {
+        await allure.addStep(`Set a rating`);
         await this.ratingSlider.select();
     }
     async writeFeedback(text) {
+        await allure.addStep(`Write a feedback`);
         await this.feedbackText.setValue(text);
     }
 
-    async inputCaptcha() {      
+    async inputCaptcha() {  
+        await allure.addStep(`Input Captcha`);
         let value = await this.captchaQuestion.getCaptcha();
         await this.captchaControl.setValue(value);
     }
     async submitFeedback() {
+        await allure.addStep(`Submit a feedback`);
         await this.submitButton.click();
     }
     async checkFeedbackAccepted() {

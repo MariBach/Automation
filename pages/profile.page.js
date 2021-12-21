@@ -21,6 +21,7 @@ class ProfilePage extends BasePage {
         return new Button($('button[aria-label$="picture"]'));
     }
     async setUserName(user) {
+        await allure.addStep(`Input user name '${user}'`);
         await this.userName.setValue(user);
         await this.confirmUserBtn.click();
     }
@@ -28,8 +29,10 @@ class ProfilePage extends BasePage {
         await expect(this.displayName).toBeExisting();
     }
     async uploadPhoto() {
+        await allure.startStep(`Upload photo`);
         await this.picture.setValue("C:/Users/User/Desktop/Coursera/Automation Bootcamp/Automation/avatar.png")
         await this.uploadBtn.click();
+        await allure.endStep(`passed`);
     }
 
 }

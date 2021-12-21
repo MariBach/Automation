@@ -19,19 +19,19 @@ class SideBar extends BasePage{
     //    return $('#entity_sidebar');
     //}
     async clickSideBar() {
+        await allure.addStep(`Open sidebar menu`);
         await this.sideMenu.click();
     }
     async clickAboutUs() {
         await allure.addStep(`Open 'About Us' section`);
+        await this.aboutUsInfo.waitForClickable();
         await this.aboutUsInfo.click();
     }
     async openFeedbackPage() {
+        await allure.addStep(`Open feedback form`);
+        await this.feedbackPage.waitForClickable();
         await this.feedbackPage.click();
     }
-
-   // async switchTo() {
-   //     await browser.switchWindow('https://www.facebook.com/owasp.juiceshop');
-    //}
 }
 
 export default new SideBar();

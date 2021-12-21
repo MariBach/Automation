@@ -26,12 +26,14 @@ class AddressInfo extends BasePage{
         return new Button($('#submitButton'));
     }
     async addressInfoInput(country, name, mobile, ZIP, Address, city) {
+        await allure.startStep(`Input address info`);
         await this.countryInfo.setValue(country);
         await this.nameInfo.setValue(name);
         await this.mobileInfo.setValue(mobile);
         await this.zipInfo.setValue(ZIP);
         await this.address.setValue(Address);
         await this.cityInfo.setValue(city);
+        await allure.endStep(`passed`);
     }
     async submitAddressInfo() {
         await this.submitBtn.waitForClickable();

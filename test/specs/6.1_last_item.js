@@ -26,7 +26,7 @@ describe('Updating info at HomePage', () => {
         await paymentOptions.proceedToReview();
         await orderPage.checkOut();
         await mainPage.gotoHomePage();
-        await mainPage.checkSwitchJSartwork();
+        await mainPage.checkSwitchLabel();
         //await browser.pause(1000);
         //await basketPage.addJSartwork();
         //await basketPage.removeFromCart();

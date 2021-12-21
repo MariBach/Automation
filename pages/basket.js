@@ -27,9 +27,11 @@ class BasketPage extends BasePage {
         await this.applePomance.click();
     }
     async addJSartwork() {
+        await allure.addStep(`Add to basket`);
         await this.jsArtwork.click();
     }
     async removeFromCart() {
+        await allure.addStep(`Remove from basket`);
         await this.trashBtn.click();
     }
     async checkEmptyCart() {

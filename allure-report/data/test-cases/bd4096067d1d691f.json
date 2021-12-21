@@ -1,0 +1,98 @@
+{
+  "uid" : "bd4096067d1d691f",
+  "name" : "Password meets length requirement",
+  "fullName" : "Registration testing.Password meets length requirement",
+  "historyId" : "1efd6cee5bd398e81b28793c98fabdd5",
+  "time" : {
+    "start" : 1640080493756,
+    "stop" : 1640080511396,
+    "duration" : 17640
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640080506316,
+        "stop" : 1640080506316,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input info test@test.com / test ",
+      "time" : {
+        "start" : 1640080510030,
+        "stop" : 1640080511273,
+        "duration" : 1243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Password meets length requirement"
+  }, {
+    "name" : "package",
+    "value" : "Registration testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd4096067d1d691f.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

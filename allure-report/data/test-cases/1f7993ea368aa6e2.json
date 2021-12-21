@@ -1,0 +1,58 @@
+{
+  "uid" : "1f7993ea368aa6e2",
+  "name" : "Checking negative loggin",
+  "fullName" : "API testing.Checking negative loggin",
+  "historyId" : "4dc0f55de20bd79c289b5ca08bc751ee",
+  "time" : {
+    "start" : 1640080769130,
+    "stop" : 1640080769163,
+    "duration" : 33
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-14"
+  }, {
+    "name" : "suite",
+    "value" : "API testing"
+  }, {
+    "name" : "testClass",
+    "value" : "API testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking negative loggin"
+  }, {
+    "name" : "package",
+    "value" : "API testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f7993ea368aa6e2.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
