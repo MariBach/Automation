@@ -7,7 +7,7 @@ import paymentOptions from "../../pages/payment.options.js"
 import inputData from '../../pages/inputs.js'
 
 describe('Purchase flow testing', () => {
-    it('Ordered fulfilled', async () => {
+    it('Placing order', async () => {
         //Main page
         await mainPage.open();
         await mainPage.openAccountMenu();

@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640208579663' stop='1640208589290'>
+    <name>User profile testing</name>
+    <title>User profile testing</title>
+    <test-cases>
+        <test-case start='1640208579664' status='broken' stop='1640208589289'>
+            <name>update users info</name>
+            <title>update users info</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-94.0'/>
+            </parameters>
+            <steps>
+                <step start='1640208583090' status='passed' stop='1640208583090'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208583690' status='passed' stop='1640208583690'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208585030' status='passed' stop='1640208586082'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208586082' status='passed' stop='1640208586082'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208586638' status='passed' stop='1640208586638'>
+                    <name>Open user profile page</name>
+                    <title>Open user profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208588061' status='passed' stop='1640208588061'>
+                    <name>Input user name 'Mari'</name>
+                    <title>Input user name 'Mari'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208588718' status='broken' stop='1640208589288'>
+                    <name>Upload photo</name>
+                    <title>Upload photo</title>
+                    <attachments>
+                        <attachment title='MyScreenshot' source='6ce8dbe6-c956-4c80-bf8d-8eb2fcc357cf-attachment.null' type='img/png' size='45002'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>File not found: C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png</message>
+                <stack-trace>WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5
+                InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:310:5
+                interaction.uploadFiles@chrome://remote/content/marionette/interaction.js:539:13
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

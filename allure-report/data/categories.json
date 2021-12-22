@@ -7,13 +7,13 @@
       "name" : "File not found: C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png",
       "children" : [ {
         "name" : "update users info",
-        "uid" : "f961231428e71b90",
+        "uid" : "cdaaa97e964dc1f9",
         "parentUid" : "7aa4bed02f0c0e42eda4358b73eb6d30",
         "status" : "broken",
         "time" : {
-          "start" : 1640175222115,
-          "stop" : 1640175231325,
-          "duration" : 9210
+          "start" : 1640208579664,
+          "stop" : 1640208589289,
+          "duration" : 9625
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,36 +24,19 @@
       "name" : "element (\"#checkoutButton\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Buy the last item",
-        "uid" : "b9b7956fb0091bf1",
+        "uid" : "6604db06530a49a5",
         "parentUid" : "793716550ee9a2d0d36406ebba01aa7e",
         "status" : "broken",
         "time" : {
-          "start" : 1640175361419,
-          "stop" : 1640175377770,
-          "duration" : 16351
+          "start" : 1640208663534,
+          "stop" : 1640208679830,
+          "duration" : 16296
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "chrome-96.0.4664.110" ]
+        "parameters" : [ "firefox-94.0" ]
       } ],
       "uid" : "793716550ee9a2d0d36406ebba01aa7e"
-    }, {
-      "name" : "Bad Request",
-      "children" : [ {
-        "name" : "Checking post for user creation",
-        "uid" : "1c9cc5dce977fcc5",
-        "parentUid" : "e2b0fae50cd647a86854a33546681ceb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1640175881347,
-          "stop" : 1640175882076,
-          "duration" : 729
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-96.0.4664.110" ]
-      } ],
-      "uid" : "e2b0fae50cd647a86854a33546681ceb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js',
+        './test/specs/**/*.js',
         //'./test/specs/1.1_registration_invalid_email.js'
         //'./test/specs/1.2_registration_invalid.pswd.js'
         //'./test/specs/1.3_registration.positive.js'
@@ -168,7 +168,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost:8000',
+    baseUrl: 'http://localhost:3000',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

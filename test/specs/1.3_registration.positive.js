@@ -15,8 +15,6 @@ describe('Registration testing', () => {
         await registerPage.register(inputData.validMail, inputData.validPswd);
         await registerPage.selectQuestion(inputData.secQuestion2);
         await registerPage.inputAnswer(inputData.answer2);
-        //await registerPage.selectQuestion("Mother's maiden name?");
-        //await registerPage.inputAnswer('Somename');
         await registerPage.confirmRegister();
     
     });

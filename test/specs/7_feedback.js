@@ -2,11 +2,10 @@ import feedbackPage from "../../pages/feedback.page.js";
 import mainPage from "../../pages/main.page.js";
 import loginPage from "../../pages/login.page.js";
 import sideBar from "../../pages/sidebar.page.js";
-import captcha from "../../elements/captcha.js"
 import inputData from '../../pages/inputs.js'
 
 describe('Feedback testing', () => {
-    it('Feedback 3* testing', async () => {
+    it('Leaving 3* feedback', async () => {
         //Main page
         await mainPage.open();
         await mainPage.openAccountMenu();
@@ -17,7 +16,6 @@ describe('Feedback testing', () => {
         await sideBar.waitForScreenAvailable(sideBar.sideBarScroll);
         await sideBar.openFeedbackPage();
         await feedbackPage.writeFeedback(inputData.feedback);
-        //await feedbackPage.writeFeedback("Great!");
         await feedbackPage.setRating();
         await feedbackPage.inputCaptcha();        
         await feedbackPage.submitFeedback();

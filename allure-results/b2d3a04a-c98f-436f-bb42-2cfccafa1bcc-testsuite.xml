@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640208693638' stop='1640208700154'>
+    <name>Updating info at HomePage</name>
+    <title>Updating info at HomePage</title>
+    <test-cases>
+        <test-case start='1640208693639' status='passed' stop='1640208700153'>
+            <name>Buy the soldout item</name>
+            <title>Buy the soldout item</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-94.0'/>
+            </parameters>
+            <steps>
+                <step start='1640208695840' status='passed' stop='1640208695840'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208696724' status='passed' stop='1640208696724'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208697481' status='passed' stop='1640208698098'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,113 @@
+{
+  "uid" : "2cddb747e4661137",
+  "name" : "Social media link open",
+  "fullName" : "Social link testing.Social media link open",
+  "historyId" : "ab8928cc0a216409606861dbf183e948",
+  "time" : {
+    "start" : 1640208670536,
+    "stop" : 1640208679282,
+    "duration" : 8746
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open sidebar menu",
+      "time" : {
+        "start" : 1640208673655,
+        "stop" : 1640208673655,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open 'About Us' section",
+      "time" : {
+        "start" : 1640208674486,
+        "stop" : 1640208674486,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open social page",
+      "time" : {
+        "start" : 1640208677348,
+        "stop" : 1640208677348,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-12"
+  }, {
+    "name" : "suite",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Social link testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Social media link open"
+  }, {
+    "name" : "package",
+    "value" : "Social link testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cddb747e4661137.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

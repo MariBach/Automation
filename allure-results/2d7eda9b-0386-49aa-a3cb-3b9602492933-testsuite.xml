@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640208714160' stop='1640208724089'>
+    <name>Feedback testing</name>
+    <title>Feedback testing</title>
+    <test-cases>
+        <test-case start='1640208714161' status='passed' stop='1640208724088'>
+            <name>Leaving 3* feedback</name>
+            <title>Leaving 3* feedback</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-94.0'/>
+            </parameters>
+            <steps>
+                <step start='1640208716553' status='passed' stop='1640208716553'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208717031' status='passed' stop='1640208717031'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208717937' status='passed' stop='1640208718559'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208718559' status='passed' stop='1640208718559'>
+                    <name>Open sidebar menu</name>
+                    <title>Open sidebar menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208718968' status='passed' stop='1640208718968'>
+                    <name>Open feedback form</name>
+                    <title>Open feedback form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208719690' status='passed' stop='1640208719690'>
+                    <name>Write a feedback</name>
+                    <title>Write a feedback</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208723223' status='passed' stop='1640208723223'>
+                    <name>Set a rating</name>
+                    <title>Set a rating</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208723517' status='passed' stop='1640208723517'>
+                    <name>Input Captcha</name>
+                    <title>Input Captcha</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208723713' status='passed' stop='1640208723713'>
+                    <name>Submit a feedback</name>
+                    <title>Submit a feedback</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

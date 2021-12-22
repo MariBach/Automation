@@ -1,0 +1,172 @@
+{
+  "uid" : "6604db06530a49a5",
+  "name" : "Buy the last item",
+  "fullName" : "Updating info at HomePage.Buy the last item",
+  "historyId" : "fc9b28b45f651579e0031e2b518363dd",
+  "time" : {
+    "start" : 1640208663534,
+    "stop" : 1640208679830,
+    "duration" : 16296
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#checkoutButton\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"#checkoutButton\") still not clickable after 10000ms\n                    at C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Button.waitForClickable (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/base/baseElement.js:21:16)\n                    at async OrderPage.checkOut (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/pages/order.page.js:32:9)\n                    at async Context.<anonymous> (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/test/specs/6.1_last_item.js:21:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#checkoutButton\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"#checkoutButton\") still not clickable after 10000ms\n                    at C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\User\\Desktop\\Coursera\\Automation_Bootcamp\\Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Button.waitForClickable (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/base/baseElement.js:21:16)\n                    at async OrderPage.checkOut (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/pages/order.page.js:32:9)\n                    at async Context.<anonymous> (file:///C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/test/specs/6.1_last_item.js:21:9)",
+    "steps" : [ {
+      "name" : "Open account menu",
+      "time" : {
+        "start" : 1640208665910,
+        "stop" : 1640208665910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640208666434,
+        "stop" : 1640208666434,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1640208667560,
+        "stop" : 1640208668183,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Add to basket",
+      "time" : {
+        "start" : 1640208668183,
+        "stop" : 1640208668183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open cart",
+      "time" : {
+        "start" : 1640208669121,
+        "stop" : 1640208669121,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check out",
+      "time" : {
+        "start" : 1640208669508,
+        "stop" : 1640208669508,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f193739ddd0f19fe",
+      "name" : "MyScreenshot",
+      "source" : "f193739ddd0f19fe.null",
+      "type" : "img/png",
+      "size" : 32678
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Updating info at HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "Updating info at HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Buy the last item"
+  }, {
+    "name" : "package",
+    "value" : "Updating info at HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-94.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6604db06530a49a5.json",
+  "parameterValues" : [ "firefox-94.0" ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid" : "cdaaa97e964dc1f9",
+  "name" : "update users info",
+  "fullName" : "User profile testing.update users info",
+  "historyId" : "16a37e56ad04bde695e6240b85b7e317",
+  "time" : {
+    "start" : 1640208579664,
+    "stop" : 1640208589289,
+    "duration" : 9625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "File not found: C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png",
+  "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:310:5\n                interaction.uploadFiles@chrome://remote/content/marionette/interaction.js:539:13\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "File not found: C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png",
+    "statusTrace" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:310:5\n                interaction.uploadFiles@chrome://remote/content/marionette/interaction.js:539:13\n                ",
+    "steps" : [ {
+      "name" : "Open account menu",
+      "time" : {
+        "start" : 1640208583090,
+        "stop" : 1640208583090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open login window",
+      "time" : {
+        "start" : 1640208583690,
+        "stop" : 1640208583690,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Logging in with test@test.com / test123 ",
+      "time" : {
+        "start" : 1640208585030,
+        "stop" : 1640208586082,
+        "duration" : 1052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open account menu",
+      "time" : {
+        "start" : 1640208586082,
+        "stop" : 1640208586082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Open user profile page",
+      "time" : {
+        "start" : 1640208586638,
+        "stop" : 1640208586638,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input user name 'Mari'",
+      "time" : {
+        "start" : 1640208588061,
+        "stop" : 1640208588061,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Upload photo",
+      "time" : {
+        "start" : 1640208588718,
+        "stop" : 1640208589288,
+        "duration" : 570
+      },
+      "status" : "broken",
+      "statusMessage" : "WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:181:5\n                InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.jsm:310:5\n                interaction.uploadFiles@chrome://remote/content/marionette/interaction.js:539:13\n                ",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa2a91c88313f239",
+        "name" : "MyScreenshot",
+        "source" : "aa2a91c88313f239.null",
+        "type" : "img/png",
+        "size" : 45002
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "User profile testing"
+  }, {
+    "name" : "testClass",
+    "value" : "User profile testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "update users info"
+  }, {
+    "name" : "package",
+    "value" : "User profile testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-94.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cdaaa97e964dc1f9.json",
+  "parameterValues" : [ "firefox-94.0" ]
+}

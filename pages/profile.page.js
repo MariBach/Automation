@@ -21,7 +21,7 @@ class ProfilePage extends BasePage {
         return new BaseElement($('img[src*="default"]'));
     }
     get displayPhoto() {
-        return new BaseElement($('img[src*="21"]'));
+        return new BaseElement($('img[src*="uploads"]'));
     }
     get uploadBtn() {
         return new Button($('button[aria-label$="picture"]'));
@@ -37,7 +37,6 @@ class ProfilePage extends BasePage {
     }
     async uploadPhoto() {
         await allure.startStep(`Upload photo`);
-        //await this.picture.setValue('./avatar.png')
         await this.picture.setValue("C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png")
         await this.uploadBtn.click();
         await allure.endStep(`passed`);

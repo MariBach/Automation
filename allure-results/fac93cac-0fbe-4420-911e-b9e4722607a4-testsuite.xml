@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640208575507' stop='1640208596277'>
+    <name>Purchase flow testing</name>
+    <title>Purchase flow testing</title>
+    <test-cases>
+        <test-case start='1640208575508' status='passed' stop='1640208596273'>
+            <name>Placing order</name>
+            <title>Placing order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640208579275' status='passed' stop='1640208579275'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208580142' status='passed' stop='1640208580142'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208580849' status='passed' stop='1640208582184'>
+                    <name>Logging in with test@test.com / test123 </name>
+                    <title>Logging in with test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208584562' status='passed' stop='1640208584562'>
+                    <name>Open cart</name>
+                    <title>Open cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208584981' status='passed' stop='1640208584981'>
+                    <name>Check out</name>
+                    <title>Check out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208585723' status='passed' stop='1640208585723'>
+                    <name>Open address info input</name>
+                    <title>Open address info input</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208586295' status='passed' stop='1640208588347'>
+                    <name>Input address info</name>
+                    <title>Input address info</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208591281' status='passed' stop='1640208591281'>
+                    <name>Open payment info page</name>
+                    <title>Open payment info page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208593077' status='passed' stop='1640208594491'>
+                    <name>Input payment infp</name>
+                    <title>Input payment infp</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208594491' status='passed' stop='1640208594491'>
+                    <name>Submit payment info</name>
+                    <title>Submit payment info</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640208595530' status='passed' stop='1640208595530'>
+                    <name>Check out</name>
+                    <title>Check out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

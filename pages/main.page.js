@@ -1,4 +1,3 @@
-
 import BasePage from '../base/basePage.js';
 import Button from '../elements/button.js';
 import BaseElement from '../base/baseElement.js';
@@ -73,24 +72,39 @@ class MainPage extends BasePage {
         await this.backToHomepageBtn.waitForClickable();
         await this.backToHomepageBtn.click();
     }
-  //  async checkSwitchJSartwork() {
-  //      await expect(this.jsArtworkSoldoutImg).toBeExisting();
-  //  }
+
     async checkSwitchLabel() {
-        //await chai.expect(this.jsArtworkSoldoutImg).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤`)
         await allure.addStep(`Check 'Sold Out' label`);
         let text = await this.jsArtworkSoldoutImg.getText();
         let label = await text.substring(0, 8);
-        //await console.log(label);
         await chai.expect(label).to.equal('Sold Out');
-        // await chai.expect(label).to.equal(`Sold Out\nBest Juice Shop Salesman Artwork\n5000¤\nAdd to Basket`);
-    }
-    
+        
+    }    
     async checkLastItem() {
         await expect(this.soldOutMsg).toBeExisting();
     }
+    get prodApJuiceImg() {
+        return new Button($('img[alt*="Apple Juice"]'));
+    }
+    async openApJuiceInfo() {
+        this.prodApJuiceImg.click();
+    }
+    get reviewSection() {
+        return new Button($('mat-expansion-panel[aria-label="Expand for Reviews"]'));        
+    }
+    async openReviewSection() {
+        await this.reviewSection.waitForClickable();
+        await this.reviewSection.click();
+    }
+    get userReview() {
+        return new BaseElement($('//cite[contains(text(),"test@test.com")]'));
+    }
+    async checkReviewAuthor() {
+        await expect(this.userReview).toBeExisting();
+        //let author = await this.userReview.getText();
+        //await chai.expect(author).to.equal('test@test.com');
+    }
 }
-
 export default new MainPage();
 
 //$('img.logo')

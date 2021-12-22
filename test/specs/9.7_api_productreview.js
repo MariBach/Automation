@@ -1,5 +1,5 @@
 import superagent from "superagent";
-import chai from "chai"; 
+import chai from "chai";
 
 const expect = chai.expect;
 describe('API testing', () => {
@@ -10,5 +10,5 @@ describe('API testing', () => {
         expect(response.statusCode).to.equal(201);
     })
 })
-//http://localhost:3000/rest/products/1/reviews
+
 //Request URL: http://localhost:3000/rest/products/1/reviews

@@ -69,10 +69,9 @@ class RegisterPage extends BasePage{
     async checkUserUnique() {
         await expect(this.emailNotUnique).toBeExisting();
     }
-    //check password lengh
+    //check password length
     async checkPassLength() {
         await expect(this.passToShort).toBeExisting();
     }
-
 }
 export default new RegisterPage ();

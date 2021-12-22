@@ -4,7 +4,7 @@ import socialPage from '../../pages/social.page.js';
 import socialLink from '../../pages/social.page.js';
 
 describe('Social link testing', () => {
-    it('Social link testing browser', async () => {
+    it('Social media link open', async () => {
         //Main Page
         await mainPage.open();
         //Sidebar
@@ -16,6 +16,5 @@ describe('Social link testing', () => {
         //Social page
         await socialLink.switchTo();
         await expect(socialLink.fbElement).toBeExisting();
-        await browser.pause(1000);
     })
 })
