@@ -28,7 +28,7 @@ class OrderPage extends BasePage {
         return new BaseElement($('h1.confirmation'));
     }
     async checkOut() {
-        await allure.addStep(`Open order page`);
+        await allure.addStep(`Check out`);
         await this.checkOutBtn.waitForClickable();
         await this.checkOutBtn.click();
     }

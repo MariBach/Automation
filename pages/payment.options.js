@@ -23,7 +23,7 @@ class PaymentOptions extends BasePage {
         return new Button($('#submitButton'));
     }
     get proceedToReviewBtn() {
-        return new Button($('button[aria-label="Proceed to review"]'));
+        return new Button($('button[aria-label="Proceed to review"]')); //move to "place your oder page"
     }
     get PaymentOptions() {
         return new Button($('mat-radio-button'));

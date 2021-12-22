@@ -2,96 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Element <button class=\"mat-focus-indicator mat-menu-item ng-star-inserted ng-tns-c256-2 cdk-focused cdk-mouse-focused\"> is not clickable at point (1069,81) because another element <div id=\"cdk-overlay-2\" class=\"cdk-overlay-pane\"> obscures it",
-      "children" : [ {
-        "name" : "update users info",
-        "uid" : "4a59c2c44884914a",
-        "parentUid" : "46278c641f2e9525f4a42b9c59e99e7f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1640080654820,
-          "stop" : 1640080665322,
-          "duration" : 10502
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox-95.0" ]
-      } ],
-      "uid" : "46278c641f2e9525f4a42b9c59e99e7f"
-    }, {
-      "name" : "mainPage.checkSwitchJSartwork is not a function",
+      "name" : "expected 'Only 1 l' to equal 'Sold Out'      \n                      actual expected\n                      \n                      'OnlySold 1 lOut'\n                      ",
       "children" : [ {
         "name" : "Buy the last item",
-        "uid" : "3c3b87cf0cd3d9b8",
-        "parentUid" : "a6699decbff6a777c43766eb29891ce8",
-        "status" : "broken",
+        "uid" : "5c87a929024f2e12",
+        "parentUid" : "d34b142cd9cb917579c32841e919d442",
+        "status" : "failed",
         "time" : {
-          "start" : 1640080674533,
-          "stop" : 1640080691921,
-          "duration" : 17388
+          "start" : 1640156376593,
+          "stop" : 1640156386147,
+          "duration" : 9554
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-96.0.4664.110" ]
       } ],
-      "uid" : "a6699decbff6a777c43766eb29891ce8"
-    }, {
-      "name" : "element (\"#checkoutButton\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Buy the last item",
-        "uid" : "ffca9f8a1e889406",
-        "parentUid" : "793716550ee9a2d0d36406ebba01aa7e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1640080757061,
-          "stop" : 1640080775602,
-          "duration" : 18541
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox-95.0" ]
-      } ],
-      "uid" : "793716550ee9a2d0d36406ebba01aa7e"
-    }, {
-      "name" : "Bad Request",
-      "children" : [ {
-        "name" : "Checking post for user creation",
-        "uid" : "65dc3856c7c68a52",
-        "parentUid" : "e2b0fae50cd647a86854a33546681ceb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1640080886784,
-          "stop" : 1640080886959,
-          "duration" : 175
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox-95.0" ]
-      } ],
-      "uid" : "e2b0fae50cd647a86854a33546681ceb"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Expect  to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
-      "children" : [ {
-        "name" : "Add/remove to basket",
-        "uid" : "ac444a9bf14d25eb",
-        "parentUid" : "de8354a85839f98bd413be745b5e80d8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1640080678820,
-          "stop" : 1640080701257,
-          "duration" : 22437
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox-95.0" ]
-      } ],
-      "uid" : "de8354a85839f98bd413be745b5e80d8"
+      "uid" : "d34b142cd9cb917579c32841e919d442"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

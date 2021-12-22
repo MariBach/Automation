@@ -2,7 +2,7 @@ import BasePage from "../base/basePage.js"
 import Input from "../elements/input.js"
 import Button from "../elements/button.js"
 import BaseElement from "../base/baseElement.js";
-import chai from "chai";
+
 
 class ProfilePage extends BasePage {
     get userName() {
@@ -16,7 +16,10 @@ class ProfilePage extends BasePage {
     }
     get displayName() {
         return new BaseElement($(`//p[contains(text(), "Mari")]`));
-    }    
+    }
+    get displayDefault() {
+        return new BaseElement($('img[src*="default"]'));
+    }
     get uploadBtn() {
         return new Button($('button[aria-label$="picture"]'));
     }
@@ -26,7 +29,8 @@ class ProfilePage extends BasePage {
         await this.confirmUserBtn.click();
     }
     async confirmChanges() {
-        await expect(this.displayName).toBeExisting();
+        await expect(this.displayName).toBeExisting() &&
+        await expect(this.displayDefault).toBeExisting(false);
     }
     async uploadPhoto() {
         await allure.startStep(`Upload photo`);
@@ -44,3 +48,5 @@ export default new ProfilePage();
 //$$('#picture') -
 //$$('button[aria-label$="picture"]') - upload photo
 //$x('(//div[contains(text(),"Order ID")])[1]') - order history page
+//$$('img[src*="default"]') - default photo
+//$$('img[src*="21"]') - uploaded image

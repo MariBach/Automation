@@ -3,6 +3,7 @@ import loginPage from "../../pages/login.page.js"
 import basketPage from "../../pages/basket.js"
 import orderPage from "../../pages/order.page.js"
 import paymentOptions from "../../pages/payment.options.js"
+import inputData from '../../pages/inputs.js'
 
 describe('Updating info at HomePage', () => {
     it('Buy the last item', async () => {
@@ -11,10 +12,10 @@ describe('Updating info at HomePage', () => {
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();                
         //Login page
-        // User was registered with data: 'test_reg@test.com', 'test234'
-        await loginPage.login('test@test.com', 'test123');
+        await loginPage.login(inputData.validMail, inputData.validPswd);
         //Check cart
         //await basketPage.addApplePomace();
+        await mainPage.closeCockieMessage();
         await basketPage.addJSartwork();
         await mainPage.openCart();
         await orderPage.checkOut();
@@ -23,14 +24,10 @@ describe('Updating info at HomePage', () => {
         await orderPage.chooseDeliverySpeed();
         await orderPage.proccedToDeliveryMethod();
         await paymentOptions.choosePaymentMethod();
-        await paymentOptions.proceedToReview();
-        await orderPage.checkOut();
+        await paymentOptions.proceedToReview();        
+        await orderPage.checkOut(); //move to order confirmation test
         await mainPage.gotoHomePage();
         await mainPage.checkSwitchLabel();
-        //await browser.pause(1000);
-        //await basketPage.addJSartwork();
-        //await basketPage.removeFromCart();
-        //await basketPage.checkEmptyCart();
     });
 })  
 // $x('(//span[contains(text(), "Only 1 left")])[1]') -locator for ribbon 'last item'

@@ -33,7 +33,7 @@ exports.config = {
         //'./test/specs/4_basket_check.js'
         //'./test/specs/5_checkout.js'
         //'./test/specs/6.1_last_item.js'
-        //'./test/specs/6.1_last_item_negative.js'
+        //'./test/specs/6.2_sold_out_negative.js'
         //'./test/specs/7_feedback.js'
         //'./test/specs/8_sociallink.js'
         //'./test/specs/9.1_api_feedback.js'
@@ -65,7 +65,7 @@ exports.config = {
         basket: [
             './test/specs/4_basket_check.js',
             './test/specs/6.1_last_item.js',
-            './test/specs/6.1_last_item_negative.js'
+            './test/specs/6.2_sold_out_negative.js'
         ],
         purchase: [
             './test/specs/5_checkout.js'

@@ -27,6 +27,9 @@ class MainPage extends BasePage {
     get logoImg() {
         return new Button($('img.logo'));
     }
+    get backToHomepageBtn() {
+        return new Button($('button[aria-label="Back to homepage"]'));
+    }
     get jsArtworkSoldoutImg() {
         //return new BaseElement($('(//span[contains(text(), "Sold Out")])[1]'));
         return new BaseElement($('(//div[@class="mat-grid-tile-content"])[4]'));
@@ -34,7 +37,7 @@ class MainPage extends BasePage {
     get soldOutMsg() {
         return new BaseElement($('//span[contains(text(), "We are out of stock! Sorry for the inconvenience.")]'));
     }
-//open home page and close cop-up
+    //open home page and close cop-up
     async open() {
         await super.open(`http://localhost:3000/#/`);
         if (this.closePopupBtn.isClickable()) {
@@ -65,8 +68,10 @@ class MainPage extends BasePage {
         this.dismissBtn.click();
     }
     async gotoHomePage() {
-        await allure.addStep(`Open login window`);
-        this.logoImg.click();
+        //await allure.addStep(`Open login window`);
+        //await this.logoImg.click();
+        await this.backToHomepageBtn.waitForClickable();
+        await this.backToHomepageBtn.click();
     }
   //  async checkSwitchJSartwork() {
   //      await expect(this.jsArtworkSoldoutImg).toBeExisting();

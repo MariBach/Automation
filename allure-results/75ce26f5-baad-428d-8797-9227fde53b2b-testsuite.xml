@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1640158866238' stop='1640158875972'>
+    <name>Registration testing</name>
+    <title>Registration testing</title>
+    <test-cases>
+        <test-case start='1640158866239' status='passed' stop='1640158875971'>
+            <name>User registration</name>
+            <title>User registration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1640158869102' status='passed' stop='1640158869102'>
+                    <name>Open account menu</name>
+                    <title>Open account menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640158869491' status='passed' stop='1640158869491'>
+                    <name>Open login window</name>
+                    <title>Open login window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640158870099' status='passed' stop='1640158870099'>
+                    <name>Open registration form</name>
+                    <title>Open registration form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640158874554' status='passed' stop='1640158875291'>
+                    <name>Input info test@test.com / test123 </name>
+                    <title>Input info test@test.com / test123 </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1640158875850' status='passed' stop='1640158875850'>
+                    <name>Registration confirmation</name>
+                    <title>Registration confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

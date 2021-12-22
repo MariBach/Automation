@@ -1,0 +1,66 @@
+{
+  "uid" : "c3731b5d7643e49c",
+  "name" : "Checking positive loggin",
+  "fullName" : "API testing.Checking positive loggin",
+  "historyId" : "5cf23b276b5b8b7a06a52cecd769eed6",
+  "time" : {
+    "start" : 1640156466380,
+    "stop" : 1640156466436,
+    "duration" : 56
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "API testing"
+  }, {
+    "name" : "testClass",
+    "value" : "API testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking positive loggin"
+  }, {
+    "name" : "package",
+    "value" : "API testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1483972bb074e05d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640156446388,
+        "stop" : 1640156446428,
+        "duration" : 40
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3731b5d7643e49c.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

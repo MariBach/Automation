@@ -3,6 +3,7 @@ import mainPage from "../../pages/main.page.js";
 import loginPage from "../../pages/login.page.js";
 import sideBar from "../../pages/sidebar.page.js";
 import captcha from "../../elements/captcha.js"
+import inputData from '../../pages/inputs.js'
 
 describe('Feedback testing', () => {
     it('Feedback 3* testing', async () => {
@@ -11,19 +12,15 @@ describe('Feedback testing', () => {
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();
         //Login page
-        // User was registered with data: 'test@test.com', 'test123'
-        await loginPage.login('test@test.com', 'test123');
+        await loginPage.login(inputData.validMail, inputData.validPswd);
         await sideBar.clickSideBar();
         await sideBar.waitForScreenAvailable(sideBar.sideBarScroll);
         await sideBar.openFeedbackPage();
-        await browser.pause(1000);
-        await feedbackPage.writeFeedback("Great!");
+        await feedbackPage.writeFeedback(inputData.feedback);
+        //await feedbackPage.writeFeedback("Great!");
         await feedbackPage.setRating();
-        //let captcha = getCaptcha(feedbackPage.captchaQuestion);
         await feedbackPage.inputCaptcha();        
-        //await browser.pause(2000);
         await feedbackPage.submitFeedback();
-        //await browser.pause(2000);
         await feedbackPage.checkFeedbackAccepted();
 
     })

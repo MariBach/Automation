@@ -22,31 +22,30 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        //'./test/specs/**/*.js',
-        //'./test/specs/1.1_registration_invalid_email.js'
-        //'./test/specs/1.2_registration_invalid.pswd.js'
-        //'./test/specs/1.3_registration.positive.js'
-        //'./test/specs/1.4_registration_notunique.user.js'
-        //'./test/specs/2.1_login_negative.js'
-        //'./test/specs/2.2_login_positive.js'
-        //'./test/specs/3_user_profile.js'
-        //'./test/specs/4_basket_check.js'
-        './test/specs/5_checkout.js'
-        //'./test/specs/6.1_last_item.js'
-        //'./test/specs/6.1_last_item_negative.js'
-        //'./test/specs/7_feedback.js'
-        //'./test/specs/8_sociallink.js'
-        //'./test/specs/9.1_api_feedback.js'
-        //'./test/specs/9.2_api_negative.js'
-        //'./test/specs/9.3_api_positive.js'
-        //'./test/specs/9.4_api_registration.js'
-        //'./test/specs/9.5_api_sociallink.js'        
-        //'./test/specs/9.6_api_switch_locale.js'
-        //'./test/specs/9.7_api_productreview.js'
-        //'./test/specs/9.7_api_productreview.js'
-        //'./test/specs/ribbon_switch.js'
-        //'./test/specs/gotohomepage.js'
-       
+        './test/specs/**/*.js',
+        //'./test/specs/1.1_registration_invalid_email.js',
+        //'./test/specs/1.2_registration_invalid.pswd.js',
+        //'./test/specs/1.3_registration.positive.js',
+        //'./test/specs/1.4_registration_notunique.user.js',
+        //'./test/specs/2.1_login_negative.js',
+        //'./test/specs/2.2_login_positive.js',
+        //'./test/specs/3_user_profile.js',
+        //'./test/specs/4_basket_check.js',
+        //'./test/specs/5_checkout.js',
+        //'./test/specs/6.1_last_item.js',
+        //'./test/specs/6.2_sold_out_negative.js',
+        //'./test/specs/7_feedback.js',
+        //'./test/specs/8_sociallink.js',
+        //'./test/specs/9.1_api_feedback.js',
+        //'./test/specs/9.2_api_negative.js',
+        //'./test/specs/9.3_api_positive.js',
+        //'./test/specs/9.4_api_registration.js',
+        //'./test/specs/9.5_api_sociallink.js',        
+        //'./test/specs/9.6_api_switch_locale.js',
+        //'./test/specs/9.7_api_productreview.js',
+        //'./test/specs/9.7_api_productreview.js',
+        //'./test/specs/ribbon_switch.js',
+        //'./test/specs/gotohomepage.js'              
     ],
     suites: {
         registration: [
@@ -66,7 +65,7 @@ exports.config = {
         basket: [
             './test/specs/4_basket_check.js',
             './test/specs/6.1_last_item.js',
-            './test/specs/6.1_last_item_negative.js'
+            './test/specs/6.2_sold_out_negative.js'
         ],
         purchase: [
             './test/specs/5_checkout.js'

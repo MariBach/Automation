@@ -1,20 +1,18 @@
 import mainPage from '../../pages/main.page.js';
 import loginPage from '../../pages/login.page.js';
 import registerPage from '../../pages/register.page.js';
+import inputData from '../../pages/inputs.js'
+
 describe('Registration testing', () => {
     it('Password meets length requirement', async () => {
         //Main Page
         await mainPage.open();
         await mainPage.openAccountMenu();
         await mainPage.navigateToLogin();
-        //await browser.pause(1000);
         //Login Page
         await loginPage.moveToRegister();
         //Registration form fill in
-        await registerPage.register('test@test.com', 'test');
-        //await registerPage.selectQuestion("Mother's maiden name?");
-        //await registerPage.inputAnswer('Apalko');
-        //await browser.pause(1000);
+        await registerPage.register(inputData.validMail, inputData.invalidPswd);
         await registerPage.checkPassLength();
     });
 })

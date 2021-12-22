@@ -11,7 +11,9 @@ class BasketPage extends BasePage {
     }
     get jsArtwork() {
         return new Button($('(//button[contains(@class, "btn-basket")])[4]'));
-
+    }
+    get facemask() {
+        return new Button($('(//button[contains(@class, "btn-basket")])[12]'));
     }
     get trashBtn() {
         return new Button($('svg[data-icon="trash-alt"]'));
@@ -28,7 +30,12 @@ class BasketPage extends BasePage {
     }
     async addJSartwork() {
         await allure.addStep(`Add to basket`);
+        await this.jsArtwork.waitForClickable();
         await this.jsArtwork.click();
+    }
+    async addFacemask() {
+        await this.facemask.waitForClickable();
+        await this.facemask.click();
     }
     async removeFromCart() {
         await allure.addStep(`Remove from basket`);
@@ -40,7 +47,6 @@ class BasketPage extends BasePage {
     async checkFillCart() {
         await expect(this.fillCartIdent).toBeExisting();
     }
-
 }
 export default new BasketPage();
 
