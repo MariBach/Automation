@@ -16,6 +16,7 @@ describe('User profile testing', () => {
         await mainPage.openUserProfile();
         await profilePage.setUserName(inputData.userName);
         await profilePage.uploadPhoto();
+        await profilePage.waitForScreenAvailable(profilePage.displayPhoto);
         await browser.saveScreenshot('./allure-results/screenshot.png')
         await profilePage.confirmChanges();
     })

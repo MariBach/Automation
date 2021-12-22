@@ -2,25 +2,59 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expected 'Only 1 l' to equal 'Sold Out'      \n                      actual expected\n                      \n                      'OnlySold 1 lOut'\n                      ",
+      "name" : "File not found: C:/Users/User/Desktop/Coursera/Automation_Bootcamp/Automation/avatar.png",
+      "children" : [ {
+        "name" : "update users info",
+        "uid" : "f961231428e71b90",
+        "parentUid" : "7aa4bed02f0c0e42eda4358b73eb6d30",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640175222115,
+          "stop" : 1640175231325,
+          "duration" : 9210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-94.0" ]
+      } ],
+      "uid" : "7aa4bed02f0c0e42eda4358b73eb6d30"
+    }, {
+      "name" : "element (\"#checkoutButton\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Buy the last item",
-        "uid" : "5c87a929024f2e12",
-        "parentUid" : "d34b142cd9cb917579c32841e919d442",
-        "status" : "failed",
+        "uid" : "b9b7956fb0091bf1",
+        "parentUid" : "793716550ee9a2d0d36406ebba01aa7e",
+        "status" : "broken",
         "time" : {
-          "start" : 1640156376593,
-          "stop" : 1640156386147,
-          "duration" : 9554
+          "start" : 1640175361419,
+          "stop" : 1640175377770,
+          "duration" : 16351
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-96.0.4664.110" ]
       } ],
-      "uid" : "d34b142cd9cb917579c32841e919d442"
+      "uid" : "793716550ee9a2d0d36406ebba01aa7e"
+    }, {
+      "name" : "Bad Request",
+      "children" : [ {
+        "name" : "Checking post for user creation",
+        "uid" : "1c9cc5dce977fcc5",
+        "parentUid" : "e2b0fae50cd647a86854a33546681ceb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640175881347,
+          "stop" : 1640175882076,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "e2b0fae50cd647a86854a33546681ceb"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

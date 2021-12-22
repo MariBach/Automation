@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js',
+        //'./test/specs/**/*.js',
         //'./test/specs/1.1_registration_invalid_email.js'
         //'./test/specs/1.2_registration_invalid.pswd.js'
         //'./test/specs/1.3_registration.positive.js'
@@ -162,7 +162,7 @@ exports.config = {
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
-    bail: 1,
+    bail: 0,
     //
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.

@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js',
+        //'./test/specs/**/*.js',
         //'./test/specs/1.1_registration_invalid_email.js',
         //'./test/specs/1.2_registration_invalid.pswd.js',
         //'./test/specs/1.3_registration.positive.js',
@@ -42,7 +42,6 @@ exports.config = {
         //'./test/specs/9.4_api_registration.js',
         //'./test/specs/9.5_api_sociallink.js',        
         //'./test/specs/9.6_api_switch_locale.js',
-        //'./test/specs/9.7_api_productreview.js',
         //'./test/specs/9.7_api_productreview.js',
         //'./test/specs/ribbon_switch.js',
         //'./test/specs/gotohomepage.js'              
